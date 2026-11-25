@@ -44,6 +44,15 @@ Voraussetzungen: Intel- oder Apple-Silicon-Mac, macOS 13 oder neuer, Xcode
 open dist/FanStats.app   # startet in der Menüleiste, kein Dock-Symbol
 ```
 
+**Fertiger Build:** vorgefertigte Universal-Builds liegen unter
+[Releases](../../releases) — macOS 13+, arm64 und x86_64 in einer App.
+Die App ist ad-hoc-signiert (kein Developer-Account); beim ersten Start
+oder Rechtsklick → *Öffnen* verwenden, bzw. die Quarantäne widerrufen:
+
+```bash
+xattr -d com.apple.quarantine /Applications/FanStats.app
+```
+
 `build_app.sh` baut **beide** Architekturen und fügt sie mit `lipo` zu einem
 Universal-Binary zusammen. Das geht auf jedem Host, egal ob Intel oder Apple
 Silicon – die macOS-SDK enthält beide Slice-Typen:

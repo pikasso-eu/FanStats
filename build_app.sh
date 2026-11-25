@@ -43,8 +43,8 @@ cat > "$APP/Contents/Info.plist" <<'PLIST'
     <key>CFBundleDisplayName</key>           <string>FanStats</string>
     <key>CFBundleExecutable</key>            <string>FanStats</string>
     <key>CFBundleIdentifier</key>            <string>local.fanstats</string>
-    <key>CFBundleVersion</key>               <string>1.0</string>
-    <key>CFBundleShortVersionString</key>    <string>1.0</string>
+    <key>CFBundleVersion</key>               <string>0.9.0</string>
+    <key>CFBundleShortVersionString</key>    <string>0.9.0</string>
     <key>CFBundlePackageType</key>           <string>APPL</string>
     <key>LSMinimumSystemVersion</key>        <string>13.0</string>
     <key>LSUIElement</key>                   <true/>
