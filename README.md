@@ -46,12 +46,37 @@ open dist/FanStats.app   # startet in der Menüleiste, kein Dock-Symbol
 
 **Fertiger Build:** vorgefertigte Universal-Builds liegen unter
 [Releases](../../releases) — macOS 13+, arm64 und x86_64 in einer App.
-Die App ist ad-hoc-signiert (kein Developer-Account); beim ersten Start
-oder Rechtsklick → *Öffnen* verwenden, bzw. die Quarantäne widerrufen:
 
-```bash
-xattr -d com.apple.quarantine /Applications/FanStats.app
-```
+### Erster Start: „FanStats kann nicht geöffnet werden …" (Gatekeeper)
+
+Die App ist ad-hoc-signiert und nicht notariell geprüft (kein
+Apple-Developer-Account). Beim ersten Start einer **heruntergeladenen** Kopie
+meldet macOS deshalb:
+
+> **„FanStats" kann nicht geöffnet werden, weil Apple nicht prüfen kann, ob
+> die App von einem unidentified developer stammt.**
+
+Das ist Gatekeeper und erscheint bei *jeder* nicht-notarisierten App — es ist
+keine Warnung vor Malware und kein Zeichen, dass dieser Build Besonderes wäre.
+Der Quellcode liegt in diesem Repo und die App lässt sich selbst bauen
+(`./build_app.sh`). Drei Wege, sie trotzdem zu starten:
+
+1. **Rechtsklick im Finder:** App mit **Rechtsklick (bzw. Ctrl-Klick) →
+   *Öffnen*** starten und im Dialog erneut **Öffnen** klicken. Einmal genügt,
+   danach startet sie normal per Doppelklick.
+2. **Systemeinstellungen:** Nach einem blockierten Start erscheint unten in
+   *Systemeinstellungen → Datenschutz und Sicherheit* der Eintrag
+   „Die Verwendung von ‚FanStats' wurde blockiert" → **Trotzdem öffnen**.
+3. **Terminal:** Quarantäne-Attribut entfernen — z. B. wenn per `curl`
+   heruntergeladen wurde oder der Rechtsklick unter der genutzten macOS-Version
+   nicht greift:
+
+   ```bash
+   xattr -d com.apple.quarantine /Applications/FanStats.app
+   ```
+
+Selbst gebaut mit `./build_app.sh` erscheint die Meldung übrigens nicht:
+lokal erzeugte Dateien erhalten kein Quarantäne-Attribut.
 
 `build_app.sh` baut **beide** Architekturen und fügt sie mit `lipo` zu einem
 Universal-Binary zusammen. Das geht auf jedem Host, egal ob Intel oder Apple
@@ -64,8 +89,9 @@ lipo -archs dist/FanStats.app/Contents/MacOS/FanStats   # x86_64 arm64
 Die Build-Caches liegen getrennt unter `.build/arm64` und `.build/x86_64`.
 Nach einem Wechsel des Rechners reicht ein erneutes `./build_app.sh`.
 
-Die App läuft ohne Apple-Developer-Account (Ad-hoc-signiert). Beim ersten Start
-fragt macOS nicht nach Sonderrechten, weil nur gelesen wird.
+Die App läuft ohne Apple-Developer-Account (Ad-hoc-signiert) und verlangt keine
+Sonderrechte — sie liest nur. (Zur Gatekeeper-Meldung beim ersten Start einer
+Download-Kopie: siehe oben.)
 
 **Autostart:** Systemeinstellungen → Allgemein → Anmeldeobjekte → `FanStats.app`
 hinzufügen. (Alternativ die App nach `/Applications` kopieren und von dort starten.)
