@@ -1,0 +1,2649 @@
+Modell: Mac17,14 · Apple Silicon (arm64)
+SMC-Keys gesamt: 2263
+
+=== Bildschirme ===
+  1. [Haupt] [extern] 1920×1080 (Framebuffer 3840×2160, Faktor 2,00, Panel 8,3 MP)  → nativ
+       sichtbar 1920×1080 Punkte, Framebuffer 8,3 MP, 120 Hz
+  Summe Framebuffer: 8.3 MP
+  Skalierte Bildschirme: 0 von 1
+
+=== Lüfter-/Steuer-Keys ===
+#KEY   ui32  4B   2263.00
+F0Ac   flt   4B   999.00
+F0CR   ui16  2B   38400.00
+F0Dc   flt   4B   0.07
+F0HR   hex_  4B   -
+F0LR   hex_  4B   -
+F0MH   hex_  4B   -
+F0MR   hex_  4B   -
+F0Mn   flt   4B   1000.00
+F0Mx   flt   4B   3625.00
+F0PC   flt   4B   0.00
+F0PV   flt   4B   1.39
+F0Rn   hex_  4B   -
+F0Rs   hex_  4B   -
+F0S0   hex_  2B   -
+F0S1   hex_  2B   -
+F0S2   hex_  2B   -
+F0S3   hex_  2B   -
+F0S4   hex_  2B   -
+F0S5   hex_  2B   -
+F0S6   hex_  2B   -
+F0S7   hex_  2B   -
+F0SR   hex_  4B   -
+F0St   ui8   1B   5.00
+F0Tg   flt   4B   1000.00
+F0md   ui8   1B   0.00
+F1Ac   flt   4B   1001.00
+F1CR   ui16  2B   38400.00
+F1Dc   flt   4B   0.07
+F1Mn   flt   4B   1000.00
+F1Mx   flt   4B   3625.00
+F1PC   flt   4B   0.00
+F1PV   flt   4B   1.39
+F1Rn   hex_  4B   -
+F1Rs   hex_  4B   -
+F1S0   hex_  2B   -
+F1S1   hex_  2B   -
+F1S2   hex_  2B   -
+F1S3   hex_  2B   -
+F1S4   hex_  2B   -
+F1S5   hex_  2B   -
+F1S6   hex_  2B   -
+F1S7   hex_  2B   -
+F1St   ui8   1B   5.00
+F1Tg   flt   4B   1000.00
+F1md   ui8   1B   0.00
+FBAD   hex_  1B   -
+FEna   hex_  1B   -
+FNum   ui8   1B   2.00
+FPSt   ui8   1B   3.00
+FRev   ui8   1B   5.00
+FVer   ui8   1B   2.00
+
+=== ALLE KEYS ===
+#KEY     ui32  000008d7             2263.000
+AC-C     flag  00                   
+AC-F     ui8   00                   0.000
+AC-I     ui16  000b                 11.000
+AC-J     ui16  0000                 0.000
+AC-M     hex_  0404                 
+AC-N     ui8   04                   4.000
+AC-P     ui8   00                   0.000
+AC-Q     ui8   00                   0.000
+AC-R     ui8   00                   0.000
+AC-S     flag  01                   
+AC-T     ui8   00                   0.000
+AC-U     flag  00                   
+ACBI     hex_  0100000000000000     
+ACCF     ui8   1e                   30.000
+ACPO     ui32  00000000             0.000
+ACSt     hex_  07030000             
+ADBA     ui32  00000000             0.000
+ANWP     ui8   04                   4.000
+AOPb     ui64  0041e78d02000000     
+CLBT     ui64  d8745c4d10010000     
+CLK!     ui8   00                   0.000
+CLKH     {clh  4019010080700000     
+CLKM     hex_  6efe2aff0800         
+CLKS     fp1f  0080                 
+CLKT     ui32  b0c30000             2965569536.000
+CLKU     ui64  f6931b8f12010000     
+CLKo     hex_  2723dd546335         
+CLSD     ui64  1c3ddf4c10010000     
+CLSP     ui64  0000000000000000     
+CLWK     ui64  5978134a11010000     
+D1AP     ui8   01                   1.000
+D1CA     ui16  0000                 0.000
+D1CD     ui16  0000                 0.000
+D1Cb     ui8   00                   0.000
+D1Cc     ui16  0000                 0.000
+D1Ci     ui16  0000                 0.000
+D1Cm     ui16  0000                 0.000
+D1Cn     ui16  0000                 0.000
+D1Cw     ui16  0000                 0.000
+D1DA     hex_  000d                 
+D1DH     flag  00                   
+D1DI     ui8   06                   6.000
+D1DP     hex_  0000000095540000     
+D1DR     flag  01                   
+D1EC     ui8   00                   0.000
+D1FV     hex_  00311400             
+D1JA     ui32  4c1d0000             1276968960.000
+D1JB     ui32  4c1d0000             1276968960.000
+D1JD     {jst  00000000000000004c1d4c1d000000004c1d000000 
+D1JE     ui32  00000000             0.000
+D1JF     ui32  00000000             0.000
+D1JG     ui32  00000000             0.000
+D1JI     flt   00000000             0.000
+D1JM     ui16  983a                 38970.000
+D1JN     ui16  4c1d                 19485.000
+D1JP     ui8   00                   0.000
+D1JQ     hex_  000000000000000000000000000000000000 
+D1JR     si32  4c1d0000             
+D1JS     si32  4c1d0000             
+D1JV     flt   00000000             0.000
+D1Ji     ui16  0384                 900.000
+D1Jn     ui8   01                   1.000
+D1LI     ui8   04                   4.000
+D1PR     ui8   00                   0.000
+D1PS     ui8   ff                   255.000
+D1Pi     ui16  0000                 0.000
+D1Ps     ui8   ff                   255.000
+D1St     hex_  5300                 
+D1UI     hex_  9edf1b36cb443769e098176de6588f65 
+D1WS     flag  00                   
+D1lg     hex_  1a01bba00000000000000000000000000000000000000000000000000000 
+D1li     ui8   04                   4.000
+D2AP     ui8   00                   0.000
+D2CA     ui16  0000                 0.000
+D2CD     ui16  0000                 0.000
+D2Cb     ui8   00                   0.000
+D2Cc     ui16  0000                 0.000
+D2Ci     ui16  0000                 0.000
+D2Cm     ui16  0000                 0.000
+D2Cn     ui16  0000                 0.000
+D2Cw     ui16  0000                 0.000
+D2DA     hex_  000b                 
+D2DH     flag  00                   
+D2DI     ui8   06                   6.000
+D2DP     hex_  0000000000000000     
+D2DR     flag  01                   
+D2EC     ui8   00                   0.000
+D2FV     hex_  00311400             
+D2JA     ui32  4c1d0000             1276968960.000
+D2JB     ui32  4c1d0000             1276968960.000
+D2JD     {jst  4c1d00004c1d00004c1d4c1d000000004c1d000000 
+D2JE     ui32  00000000             0.000
+D2JF     ui32  00000000             0.000
+D2JG     ui32  00000000             0.000
+D2JI     flt   00000000             0.000
+D2JM     ui16  983a                 38970.000
+D2JN     ui16  4c1d                 19485.000
+D2JP     ui8   00                   0.000
+D2JQ     hex_  000000000000000000000000000000000000 
+D2JR     si32  4c1d0000             
+D2JS     si32  4c1d0000             
+D2JV     flt   00000000             0.000
+D2Ji     ui16  0000                 0.000
+D2Jn     ui8   00                   0.000
+D2LI     ui8   04                   4.000
+D2PR     ui8   00                   0.000
+D2PS     ui8   ff                   255.000
+D2Pi     ui16  0000                 0.000
+D2Ps     ui8   ff                   255.000
+D2St     hex_  0000                 
+D2UI     hex_  a24b1b365f00d5648fc3ca29e8748f5a 
+D2WS     flag  00                   
+D2lg     hex_  a11a03bb0000000000000000000000000000000000000000000000000000 
+D2li     ui8   04                   4.000
+D3AP     ui8   00                   0.000
+D3CA     ui16  0000                 0.000
+D3CD     ui16  0000                 0.000
+D3Cb     ui8   00                   0.000
+D3Cc     ui16  0000                 0.000
+D3Ci     ui16  0000                 0.000
+D3Cm     ui16  0000                 0.000
+D3Cn     ui16  0000                 0.000
+D3Cw     ui16  0000                 0.000
+D3DA     hex_  0009                 
+D3DH     flag  00                   
+D3DI     ui8   06                   6.000
+D3DP     hex_  0000000000000000     
+D3DR     flag  01                   
+D3EC     ui8   00                   0.000
+D3FV     hex_  00311400             
+D3JA     ui32  4c1d0000             1276968960.000
+D3JB     ui32  4c1d0000             1276968960.000
+D3JD     {jst  4c1d00004c1d00004c1d4c1d000000004c1d000000 
+D3JE     ui32  00000000             0.000
+D3JF     ui32  00000000             0.000
+D3JG     ui32  00000000             0.000
+D3JI     flt   00000000             0.000
+D3JM     ui16  983a                 38970.000
+D3JN     ui16  4c1d                 19485.000
+D3JP     ui8   00                   0.000
+D3JQ     hex_  000000000000000000000000000000000000 
+D3JR     si32  4c1d0000             
+D3JS     si32  4c1d0000             
+D3JV     flt   00000000             0.000
+D3Ji     ui16  0000                 0.000
+D3Jn     ui8   00                   0.000
+D3LI     ui8   04                   4.000
+D3PR     ui8   00                   0.000
+D3PS     ui8   ff                   255.000
+D3Pi     ui16  0000                 0.000
+D3Ps     ui8   ff                   255.000
+D3St     hex_  0000                 
+D3UI     hex_  5cd91b36cd50bc365cdf23098c080f31 
+D3WS     flag  00                   
+D3lg     hex_  a11a03bb0000000000000000000000000000000000000000000000000000 
+D3li     ui8   04                   4.000
+D4AP     ui8   00                   0.000
+D4CA     ui16  0000                 0.000
+D4CD     ui16  0000                 0.000
+D4Cb     ui8   00                   0.000
+D4Cc     ui16  0000                 0.000
+D4Ci     ui16  0000                 0.000
+D4Cm     ui16  0000                 0.000
+D4Cn     ui16  0000                 0.000
+D4Cw     ui16  0000                 0.000
+D4DA     hex_  0007                 
+D4DH     flag  00                   
+D4DI     ui8   06                   6.000
+D4DP     hex_  0000000000000000     
+D4DR     flag  01                   
+D4EC     ui8   00                   0.000
+D4FV     hex_  00311400             
+D4JA     ui32  4c1d0000             1276968960.000
+D4JB     ui32  4c1d0000             1276968960.000
+D4JD     {jst  4c1d00004c1d00004c1d4c1d000000004c1d000000 
+D4JE     ui32  00000000             0.000
+D4JF     ui32  00000000             0.000
+D4JG     ui32  00000000             0.000
+D4JI     flt   00000000             0.000
+D4JM     ui16  983a                 38970.000
+D4JN     ui16  4c1d                 19485.000
+D4JP     ui8   00                   0.000
+D4JQ     hex_  000000000000000000000000000000000000 
+D4JR     si32  4c1d0000             
+D4JS     si32  4c1d0000             
+D4JV     flt   00000000             0.000
+D4Ji     ui16  0000                 0.000
+D4Jn     ui8   00                   0.000
+D4LI     ui8   04                   4.000
+D4PR     ui8   00                   0.000
+D4PS     ui8   ff                   255.000
+D4Pi     ui16  0000                 0.000
+D4Ps     ui8   ff                   255.000
+D4St     hex_  0000                 
+D4UI     hex_  a8df1b36e0666f6d6cc2282cc50cad49 
+D4WS     flag  00                   
+D4lg     hex_  a11a03bb0000000000000000000000000000000000000000000000000000 
+D4li     ui8   04                   4.000
+DBCF     ui8   86                   134.000
+DBTE     ui8   01                   1.000
+DHAP     ui32  01000000             16777216.000
+DICT     flag  00                   
+DITT     si32  00000000             
+DPBS     ui32  c8af0000             3366912000.000
+DPBW     ui32  c8af0000             3366912000.000
+EVPF     hex_  00001000000000000000000000000000 
+F0Ac     flt   00407a44             1001.000
+F0CR     ui16  9600                 38400.000
+F0Dc     flt   4db78b3d             0.068
+F0HR     hex_  0000c460             
+F0LR     hex_  00025160             
+F0MH     hex_  0000007c             
+F0MR     hex_  000077c0             
+F0Mn     flt   00007a44             1000.000
+F0Mx     flt   00906245             3625.000
+F0PC     flt   00000000             0.000
+F0PV     flt   0080b23f             1.395
+F0Rn     hex_  00000000             
+F0Rs     hex_  20000000             
+F0S0     hex_  0000                 
+F0S1     hex_  0000                 
+F0S2     hex_  0000                 
+F0S3     hex_  0000                 
+F0S4     hex_  0000                 
+F0S5     hex_  0000                 
+F0S6     hex_  4004                 
+F0S7     hex_  4004                 
+F0SR     hex_  0000007c             
+F0St     ui8   05                   5.000
+F0Tg     flt   00007a44             1000.000
+F0md     ui8   00                   0.000
+F1Ac     flt   00c07a44             1003.000
+F1CR     ui16  9600                 38400.000
+F1Dc     flt   948c863d             0.066
+F1Mn     flt   00007a44             1000.000
+F1Mx     flt   00906245             3625.000
+F1PC     flt   00000000             0.000
+F1PV     flt   0080b23f             1.395
+F1Rn     hex_  00000000             
+F1Rs     hex_  20000000             
+F1S0     hex_  0000                 
+F1S1     hex_  0000                 
+F1S2     hex_  0000                 
+F1S3     hex_  0000                 
+F1S4     hex_  0000                 
+F1S5     hex_  0000                 
+F1S6     hex_  4004                 
+F1S7     hex_  4004                 
+F1St     ui8   05                   5.000
+F1Tg     flt   00007a44             1000.000
+F1md     ui8   00                   0.000
+FBAD     hex_  00                   
+FEna     hex_  07                   
+FNum     ui8   02                   2.000
+FPSt     ui8   03                   3.000
+FRev     ui8   05                   5.000
+FVer     ui8   02                   2.000
+ID0R     flt   eb8fca3f             1.583
+IMVR     flt   8cff363f             0.715
+IP0b     flt   00dc3b3f             0.734
+IP1b     flt   00c0953c             0.018
+IP1l     flt   00006039             0.000
+IP2b     flt   0000c73b             0.006
+IP2l     flt   0020113d             0.035
+IP4b     flt   0080ef3b             0.007
+IP5l     flt   00007039             0.000
+IP7l     flt   00f0253d             0.041
+IP8l     flt   0020e83c             0.028
+IP9b     flt   0000ee3a             0.002
+IPMC     flt   0f3ae73e             0.452
+IPSR     flt   bb12f53e             0.479
+IPal     flt   00008037             0.000
+IPbb     flt   0080b33b             0.005
+IPdb     flt   00000000             0.000
+IPeb     flt   00000000             0.000
+IPkl     flt   00c0583c             0.013
+IR0b     flt   0080393c             0.011
+IR1b     flt   0068e73d             0.113
+IR2b     flt   00c0773c             0.015
+IR3b     flt   0000a53b             0.005
+IR4b     flt   0085a13f             1.262
+IR7b     flt   0000e73b             0.007
+IR8l     flt   0040c73c             0.024
+IR9b     flt   00802f3c             0.011
+IRbb     flt   00401a3c             0.009
+IReb     flt   00001f3b             0.002
+IS0b     flt   00ed823f             1.023
+IS1b     flt   00000000             0.000
+IS2b     flt   00b0393d             0.045
+IS3b     flt   00001f3b             0.002
+IS4b     flt   0085a13f             1.262
+IS7b     flt   0080943b             0.005
+IS7l     flt   00300e3d             0.035
+IS9b     flt   0080943b             0.005
+ISP2     flt   eac1233f             0.640
+ISVR     flt   d9f0263f             0.652
+ISbb     flt   00401a3c             0.009
+ISbl     flt   00000000             0.000
+ISdb     flt   00001f3b             0.002
+ISdl     flt   00000000             0.000
+IU1C     flt   a9d6863b             0.004
+IU2C     flt   dee6ce3b             0.006
+IU3C     flt   64a8d03b             0.006
+IUAC     flt   9f58363d             0.045
+KDBG     ui8   01                   1.000
+KDD0     hex_  4f4d00001778b4a10000619e5bd2059562dc99349b7f56ad5ee9f4ab7bc50000 
+KDD1     hex_  93dfce2e89174e1ae9850000c8d15cbe4c0cb0a000000000980d57174e640000 
+KDTP     ui8   01                   1.000
+KINC     ui16  000c                 12.000
+KINV     ch8*  7a454152             
+KINX     hex_  7a454152             
+KSRC     flag  01                   
+LCAD     ui8   00                   0.000
+LCAE     ui8   00                   0.000
+LDKN     ui8   03                   3.000
+LGDA     ui64  0030e78d02000000     
+LGDB     ui64  0000000000000000     
+LGDC     ui64  0000000000000000     
+LGDS     ui64  0004000000000000     
+LGPE     flag  00                   
+LPMI     ui8   00                   0.000
+LPMS     ui8   00                   0.000
+LPMc     hex_  00000000             
+LS!      ui8   00                   0.000
+LS0C     ui16  ffff                 65535.000
+LS0P     ui16  5eed                 24301.000
+LS0S     ui16  ed5e                 60766.000
+LS1C     ui16  ffff                 65535.000
+LS1P     ui16  0000                 0.000
+LS1S     ui16  e05c                 57436.000
+LSB!     flag  00                   
+LSCS     ui8   00                   0.000
+LSFD     hex_  34bc00010011         
+LSFU     hex_  34bc00010011         
+LSLB     ui16  ffff                 65535.000
+LSLF     ui16  0000                 0.000
+LSLN     ui16  ffff                 65535.000
+LSOF     flag  00                   
+LSOO     flag  00                   
+LSRB     flag  00                   
+LSSB     hex_  0000                 
+LSSE     flag  01                   
+LSUP     ui8   00                   0.000
+MBSE     hex_  fe000000             
+MBSW     hex_  0000000000000000     
+MBSe     hex_  0000000000000000     
+MBSw     hex_  0000000000000000     
+MDSV     hex_  0000ff080104012000   
+MEKV     ui16  0044                 68.000
+MEPS     hex_  000400040004         
+MESS     ui8   2a                   42.000
+MEST     hex_  2403054a11010000     
+MEWE     ui8   01                   1.000
+MFIC     hex_  00000000             
+MFIX     flag  00                   
+MPPR     ui32  00000001             1.000
+MSAL     hex_  08                   
+MSAM     ui8   01                   1.000
+MSAN     ui16  154c                 5452.000
+MSAO     ui16  ea50                 59984.000
+MSAR     ui8   00                   0.000
+MSAS     ui8   03                   3.000
+MSAT     ui8   03                   3.000
+MSAU     ui8   00                   0.000
+MSAV     ui8   00                   0.000
+MSAX     hex_  00                   
+MSFL     ch8*  00000000             
+MSFN     ui8   00                   0.000
+MSMC     hex_  0000                 
+MSME     flag  00                   
+MSMR     ui8   00                   0.000
+MSMV     flt   00001041             9.000
+MSMW     flt   00004040             3.000
+MSOC     si32  00000023             
+MSOP     si32  00000004             
+MSSC     flag  00                   
+MSSK     flag  00                   
+MSSM     ui8   00                   0.000
+MST3     ui32  00000000             0.000
+MST6     ui64  0000000000000000     
+MSTC     ui16  0000                 0.000
+MSTD     ui16  0000                 0.000
+MSTE     flt   00000000             0.000
+MSTF     flt   00000000             0.000
+MSX0     ui16  30b1                 12465.000
+MSX2     ui8   0c                   12.000
+MSX9     ui8   30                   48.000
+MSXA     ch8*  46314163             
+MSXC     ui32  00000000             0.000
+MSXD     ch8*  00000000000000000000000000000000 
+MSXH     ch8*  00000000000000000000000000000000 
+MSXK     ch8*  a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b20000000000000000000000000000 
+MSXL     ch8*  286b6e4e286b6e4e286b6e4e286b6e4e 
+MSXN     ui8   b2                   178.000
+MSXP     ui32  00000000             0.000
+MSXS     ch8*  01020304             
+MSXT     ui32  ffffffff             4294967295.000
+MSXU     hex_  0000                 
+MSXZ     flt   00000000             0.000
+MSXb     ui8   00                   0.000
+MSXc     ui32  00000000             0.000
+MSXd     ch8*  00000000000000000000000000000000 
+MSXh     ch8*  00000000000000000000000000000000 
+MSXk     ch8*  6162636402040103050000000000000000000000000000000000000000000000 
+MSXl     ch8*  286b6e4e286b6e4e286b6e4e286b6e4e 
+MSXm     ui16  0008                 8.000
+MSXn     ui8   64                   100.000
+MSXs     ui32  01020304             16909060.000
+MSXt     ch8*  00000000000000000000000000000000 
+MSxb     hex_  032e                 
+MSxd     hex_  032e0000121500000080d994e7144140000000001e0c3c40000000023a4cb240 
+MSxs     hex_  033100001d15000000009472255f3840 
+MpPC     ui16  0000                 0.000
+MpPD     ui16  0000                 0.000
+MpPI     ui8   00                   0.000
+MpPM     ui8   00                   0.000
+MpPN     ui8   00                   0.000
+MpPO     ui8   00                   0.000
+MpPP     ui8   00                   0.000
+MpPS     ui8   00                   0.000
+MpPU     ui8   00                   0.000
+MpPV     ui8   00                   0.000
+N0Tr     ui8   00                   0.000
+N0Tw     ui8   00                   0.000
+NESN     hex_  00000000             
+NTAP     flag  01                   
+Ns0T     ui8   08                   8.000
+Ns1T     ui8   00                   0.000
+NsNL     ui8   01                   1.000
+P2SR     flt   521b1c40             2.439
+PD0R     flt   dd489941             19.161
+PDTR     flt   dd489941             19.161
+PHPC     flt   839b3641             11.413
+PHPM     flt   aaf1523f             0.824
+PMVR     flt   9b7b0a41             8.655
+PN00     flt   1058193f             0.599
+PP0b     flt   56f0323f             0.699
+PP1b     flt   01ed6a3c             0.014
+PP1l     flt   801a393a             0.001
+PP2b     flt   feefd13b             0.006
+PP2l     flt   27bf823d             0.064
+PP4b     flt   1d84983b             0.005
+PP5l     flt   c85ed839             0.000
+PP7l     flt   9dd1083e             0.134
+PP8l     flt   4c8db93c             0.023
+PP9b     flt   2ec7123b             0.002
+PPCL     flt   70d79d3f             1.233
+PPMC     flt   b585dc3f             1.723
+PPSM     flt   33cf3141             11.113
+PPSR     flt   71a3e93f             1.825
+PPal     flt   00f89937             0.000
+PPbb     flt   74039c3b             0.005
+PPdb     flt   00000000             0.000
+PPeb     flt   00000000             0.000
+PPkl     flt   9218823c             0.016
+PR0b     flt   ee9f433c             0.012
+PR1b     flt   80043c39             0.000
+PR2b     flt   809b433c             0.012
+PR3b     flt   40c8143c             0.009
+PR4b     flt   0709a33f             1.274
+PR7b     flt   8eb1023c             0.008
+PR8l     flt   4039913c             0.018
+PR9b     flt   8b46173c             0.009
+PRbb     flt   f5bfac3b             0.005
+PReb     flt   fa25903b             0.004
+PS0b     flt   2ed24e3f             0.808
+PS1b     flt   00000000             0.000
+PS2b     flt   becfd53c             0.026
+PS3b     flt   3a2d8f3b             0.004
+PS4b     flt   13a4a23f             1.271
+PS7b     flt   379f693b             0.004
+PS7l     flt   4799ea3d             0.115
+PS9b     flt   a97c263b             0.003
+PSTR     flt   ca7f4341             12.219
+PSVR     flt   cba5fc40             7.895
+PSbb     flt   cf9fd73b             0.007
+PSbl     flt   00000000             0.000
+PSdb     flt   03f2323b             0.003
+PSdl     flt   00000000             0.000
+PU1C     flt   dfadaf3c             0.021
+PU2C     flt   edc7063d             0.033
+PU3C     flt   d1ec073d             0.033
+PUAC     flt   b9916d3e             0.232
+PVCC     flt   00000000             0.000
+PVCM     flt   00000000             0.000
+PZC0     flt   a5d72941             10.615
+PZC1     flt   65775241             13.154
+PZCB     flt   00000000             0.000
+PZCU     flt   7097303c             0.011
+PZD1     flt   c74c2f3f             0.685
+PZT0     flt   0080ab43             343.000
+RBID     ui32  00000010             16.000
+RBRV     ui32  00000003             3.000
+RCID     ui32  00006050             24656.000
+RCRV     ui32  00000011             17.000
+RECI     ui64  000661d42e04c01c     
+RESV     ch8*  00000000000000000000000000000000 
+RGEN     ui8   04                   4.000
+RP00     flt   00f0123f             0.574
+RP01     flt   00f0da3e             0.428
+RP02     flt   00403d3c             0.012
+RP03     flt   0050293f             0.661
+RP04     flt   00f0e33e             0.445
+RP05     flt   00e0d73c             0.026
+RP06     flt   00c8893f             1.076
+RP07     flt   00e0823c             0.016
+RP08     flt   0020233f             0.637
+RP09     flt   0030533f             0.825
+RP0A     flt   0000923c             0.018
+RP0B     flt   0070993f             1.199
+RP0C     flt   00e0dd3e             0.433
+RPF0     ui8   00                   0.000
+RPlt     ch8*  6a37373563000000     
+Rc00     si32  00000000             
+RcP1     si32  0f103012             
+RcPa     si32  10200412             
+RcPw     si32  0e000011             
+RcU1     si32  0f103012             
+RcUR     si32  16003815             
+Rcp0     si32  00000000             
+RcpD     si32  00000000             
+Rcpa     si32  10000412             
+Rcpm     si32  0a002422             
+Rcu0     si32  00000000             
+SATC     hex_  00cb665500000000     
+SATR     hex_  f3                   
+SATa     hex_  0000000000000000     
+SATb     hex_  0000000000000000     
+SATc     hex_  0000000000000000     
+SATd     hex_  0000000000000000     
+SATe     hex_  0000000000000000     
+SATf     hex_  0000000000000000     
+SATg     hex_  0000000000000000     
+SDDS     flt   00000000             0.000
+SDF0     flt   00000000             0.000
+SDM0     flt   00000000             0.000
+SDM1     flt   00000000             0.000
+SDM2     flt   00000000             0.000
+SDM3     flt   00000000             0.000
+SDMX     flt   00000000             0.000
+SDMd     flt   00008041             16.000
+SDMn     flt   00000042             32.000
+SDMr     flt   00000041             8.000
+SDMs     flt   00000043             128.000
+SDMv     flt   00007f43             255.000
+SDTo     flt   00000000             0.000
+SDTp     flt   00000000             0.000
+SDm0     flt   00000000             0.000
+SDm1     flt   00000000             0.000
+SDm2     flt   00000000             0.000
+SDm3     flt   00000000             0.000
+SEB0     hex_  00000000             
+SEB1     hex_  00000000             
+SEB2     hex_  00000000             
+SEB3     hex_  00000000             
+SEB4     hex_  00000000             
+SEB5     hex_  00000000             
+SEB6     hex_  00000000             
+SEB7     hex_  00000000             
+SEB8     hex_  00000000             
+SEB9     hex_  00000000             
+SEBA     hex_  00000000             
+SEC0     hex_  00000000             
+SEC1     hex_  00000000             
+SEC2     hex_  00000000             
+SEC3     hex_  00000000             
+SEF0     hex_  00000000             
+SEF1     hex_  00000000             
+SEF2     hex_  00000000             
+SEF3     hex_  00000000             
+SES0     hex_  00000000             
+SES1     hex_  00000000             
+SES2     hex_  00000000             
+SES3     hex_  00000000             
+SES4     hex_  00000000             
+SES5     hex_  00000000             
+SES6     hex_  00000000             
+SES7     hex_  00000000             
+SES8     hex_  00000000             
+SES9     hex_  00000000             
+SESA     hex_  00000000             
+SEb0     hex_  00000000             
+SEb1     hex_  00000000             
+SEb2     hex_  00000000             
+SEb3     hex_  00000000             
+SEb4     hex_  00000000             
+SEb5     hex_  00000000             
+SEb6     hex_  00000000             
+SEb7     hex_  00000000             
+SEb8     hex_  00000000             
+SEb9     hex_  00000000             
+SEbA     hex_  00000000             
+SEc0     hex_  00000000             
+SEc1     hex_  00000000             
+SEc2     hex_  00000000             
+SEc3     hex_  00000000             
+SEf0     hex_  00000000             
+SEf1     hex_  00000000             
+SEf2     hex_  00000000             
+SEf3     hex_  00000000             
+SEs0     hex_  00000000             
+SEs1     hex_  00000000             
+SEs2     hex_  00000000             
+SEs3     hex_  00000000             
+SEs4     hex_  00000000             
+SEs5     hex_  00000000             
+SEs6     hex_  00000000             
+SEs7     hex_  00000000             
+SEs8     hex_  00000000             
+SEs9     hex_  00000000             
+SEsA     hex_  00000000             
+SFBN     hex_  00000000             
+SFBS     hex_  00000000             
+SFF0     hex_  00000000             
+SFF1     hex_  00000000             
+SFF2     hex_  00000000             
+SFF3     hex_  00000000             
+SFF4     hex_  00000000             
+SFF5     hex_  00000000             
+SFF6     hex_  00000000             
+SFF7     hex_  00000000             
+SFF8     hex_  00000000             
+SFF9     hex_  00000000             
+SFFA     hex_  00000000             
+SFFB     hex_  00000000             
+SFFC     hex_  00000000             
+SFFD     hex_  00000000             
+SFFE     hex_  00000000             
+SFI0     hex_  00000000             
+SFI1     hex_  00000000             
+SFI2     hex_  00000000             
+SMB0     hex_  66d2020000000000000000000000000000000000000000000000000000000000 
+SMB2     hex_  a32a000000000000000000000000000000000000000000000200000009f00010 
+SMB6     hex_  0900000000000000000000000000000000000000000000000000000000000000 
+SMBC     hex_  000000000000         
+SMBG     ui8   00                   0.000
+SMBS     hex_  0000                 
+SMBW     hex_  0000000000000000000000000000000000000000000000000000000000000000 
+TB0p     flt   f05de241             28.296
+TB1p     flt   a8daf341             30.482
+TBBp     flt   50b7df41             27.965
+TCDX     flt   33630842             34.097
+TCMb     flt   66d63142             44.459
+TH0a     flt   0068cd41             25.676
+TH0b     flt   00b8cd41             25.715
+TH0x     flt   00b8cd41             25.715
+TH1a     flt   00000000             0.000
+TH1b     flt   00000000             0.000
+TI0p     flt   18a2e941             29.204
+TM1p     flt   5888ee41             29.817
+TMVR     flt   106aea41             29.302
+TN00     flt   0000d441             26.500
+TN01     flt   0000d441             26.500
+TN02     flt   0000d241             26.250
+TN03     flt   0000d241             26.250
+TN04     flt   00000000             0.000
+TN05     flt   00000000             0.000
+TN06     flt   00000000             0.000
+TN07     flt   00000000             0.000
+TNLc     flt   00008040             4.000
+TNSz     flt   00000045             2048.000
+TNVn     flt   00004040             3.000
+TPD0     flt   7077e741             28.933
+TPD1     flt   301be841             29.013
+TPD2     flt   301be841             29.013
+TPD3     flt   308ce541             28.693
+TPD4     flt   48c8ef41             29.973
+TPD5     flt   086cf041             30.053
+TPD6     flt   c80ff141             30.133
+TPD7     flt   48c8ef41             29.973
+TPD8     flt   b862e941             29.173
+TPD9     flt   a8b5e141             28.214
+TPDX     flt   c80ff141             30.133
+TPDa     flt   7806ea41             29.253
+TPDb     flt   f84deb41             29.413
+TPDc     flt   8095ec41             29.573
+TPDd     flt   7806ea41             29.253
+TPDe     flt   7806ea41             29.253
+TPDf     flt   3f39ed41             29.653
+TPMp     flt   e089e541             28.692
+TPSD     flt   782dce41             25.772
+TPSp     flt   a00ae941             29.130
+TR0Z     ioft  ecd1330000000000     
+TR1d     ioft  805c1f0000000000     
+TR2d     ioft  648e190000000000     
+TR5p     flt   b8afe841             29.086
+TRD0     flt   301be841             29.013
+TRD1     flt   f8bee841             29.093
+TRD2     flt   301be841             29.013
+TRD3     flt   b862e941             29.173
+TRD4     flt   4857f241             30.293
+TRD5     flt   c80ff141             30.133
+TRD6     flt   50e6f441             30.612
+TRD7     flt   8024ef41             29.893
+TRD8     flt   38aaea41             29.333
+TRD9     flt   b0d3e641             28.853
+TRDX     flt   50e6f441             30.612
+TRDa     flt   c1f1eb41             29.493
+TRDb     flt   c1f1eb41             29.493
+TRDc     flt   c1f1eb41             29.493
+TRDd     flt   48c8ef41             29.973
+TRDe     flt   3f39ed41             29.653
+TRDf     flt   b862e941             29.173
+TS0p     flt   10aaf141             30.208
+TSDD     flt   608bec41             29.568
+TSSp     flt   30abeb41             29.459
+TSVL     flt   1809e241             28.254
+TSVR     flt   4052fc41             31.540
+TUCp     flt   e8c1d441             26.595
+TUD0     flt   8095ec41             29.573
+TUD1     flt   f02fe641             28.773
+TUD2     flt   308ce541             28.693
+TUD3     flt   28fde241             28.374
+TUD4     flt   8095ec41             29.573
+TUD5     flt   108af541             30.692
+TUD6     flt   10fbf241             30.373
+TUD7     flt   3f39ed41             29.653
+TUD8     flt   70e8e441             28.613
+TUD9     flt   308ce541             28.693
+TUDX     flt   108af541             30.692
+TUDa     flt   f8bee841             29.093
+TUDb     flt   c1f1eb41             29.493
+TUDc     flt   f84deb41             29.413
+TUDd     flt   7806ea41             29.253
+TUDe     flt   b862e941             29.173
+TUDf     flt   f84deb41             29.413
+TVAi     si32  00000000             
+TVCi     si32  00000000             
+TVD0     flt   66d63142             44.459
+TVDA     flt   00c02a42             42.688
+TVDC     flt   66d63142             44.459
+TVDG     flt   00e02b42             42.969
+TVDM     flt   00402842             42.062
+TVDP     flt   66d63142             44.459
+TVDi     si32  02000000             
+TVGi     si32  52000000             
+TVMD     flt   0000803f             1.000
+TVMi     si32  1d000000             
+TVNS     flt   0000c441             24.500
+TVPi     si32  03000000             
+TVS1     flt   bfe7c741             24.988
+TW0p     flt   40b1ef41             29.962
+Ta00     flt   00c00242             32.688
+Ta04     flt   00c00242             32.688
+Ta08     flt   00c00242             32.688
+Ta0K     flt   00c00242             32.688
+Ta0O     flt   00c00242             32.688
+Ta0R     flt   00c00242             32.688
+TaFL     flt   00cbce41             25.849
+TaFR     flt   5085d441             26.565
+TaRL     flt   d0ead541             26.740
+TaRR     flt   909de041             28.077
+Tf04     flt   664e0142             32.327
+Tf06     flt   00308d42             70.594
+Tf08     flt   cd4cf941             31.163
+Tf09     flt   33f3f941             31.244
+Tf0A     flt   cd0cf941             31.131
+Tf0B     flt   33930242             32.644
+Tf14     flt   00180742             33.773
+Tf16     flt   00888342             65.766
+Tf18     flt   00580242             32.586
+Tf19     flt   661e0742             33.780
+Tf1A     flt   cd240342             32.786
+Tf1B     flt   00a00042             32.156
+TfC1     flt   6646e941             29.159
+TfC3     flt   3393e941             29.197
+TfC5     flt   3383eb41             29.439
+TfC6     flt   0070e841             29.055
+TfC7     flt   33c3e341             28.470
+TfC8     flt   0000ea41             29.250
+TfC9     flt   cd4cea41             29.288
+TfCA     flt   6676e941             29.183
+TfCB     flt   00f0f341             30.492
+TfCC     flt   339b0242             32.652
+Tg08     flt   0040f741             30.906
+Tg0C     flt   0040f741             30.906
+Tg0O     flt   0040f741             30.906
+Tg0R     flt   0060f741             30.922
+Tg0U     flt   0060f741             30.922
+Tg0X     flt   0040f741             30.906
+Tg0a     flt   0040f741             30.906
+Tg0d     flt   0020f741             30.891
+Tg0g     flt   0020f741             30.891
+Tg0j     flt   0080f741             30.938
+Tg12     flt   0020f741             30.891
+Tg16     flt   0020f741             30.891
+Tg1I     flt   0080f741             30.938
+Tg1M     flt   0060f741             30.922
+Tg1Q     flt   0000f741             30.875
+Tg1U     flt   0040f741             30.906
+Tg1Y     flt   0040f741             30.906
+Tg1c     flt   0020f741             30.891
+Tg1k     flt   0020f741             30.891
+Tg1o     flt   0080f741             30.938
+Tg1x     flt   00a0fb41             31.453
+Tg29     flt   0020fc41             31.516
+Tg2D     flt   0020fc41             31.516
+Tg2P     flt   0040fc41             31.531
+Tg2T     flt   0040fc41             31.531
+Tg2X     flt   0020fc41             31.516
+Tg2b     flt   0060fc41             31.547
+Tg2f     flt   0040fc41             31.531
+Tg2j     flt   0060fc41             31.547
+Tg2n     flt   0040fc41             31.531
+Tg2r     flt   0080fc41             31.562
+Tg3B     flt   0020fc41             31.516
+Tg3F     flt   0080fc41             31.562
+Tg3R     flt   00e0fb41             31.484
+Tg3V     flt   0020fc41             31.516
+Tg3Z     flt   00e0fb41             31.484
+Tg3d     flt   0040fc41             31.531
+Tg3h     flt   0040fc41             31.531
+Tg3l     flt   0080fc41             31.562
+Tg3t     flt   0040fc41             31.531
+Tg3x     flt   00a0fc41             31.578
+Tg43     flt   00a0fb41             31.453
+Tg4D     flt   00e0f741             30.984
+Tg4G     flt   00e0f741             30.984
+Tg4P     flt   00e0f741             30.984
+Tg4S     flt   0020f841             31.016
+Tg4V     flt   00e0f741             30.984
+Tg4Y     flt   00e0f741             30.984
+Tg4b     flt   0020f841             31.016
+Tg4e     flt   00e0f741             30.984
+Tg4h     flt   00c0f741             30.969
+Tg4k     flt   00c0f741             30.969
+Tg50     flt   00e0f741             30.984
+Tg53     flt   00e0f741             30.984
+Tg5C     flt   0020f841             31.016
+Tg5F     flt   0040f841             31.031
+Tg5I     flt   00a0f741             30.953
+Tg5L     flt   0000f841             31.000
+Tg5O     flt   0060f841             31.047
+Tg5R     flt   0000f841             31.000
+Tg5Y     flt   0000f841             31.000
+Tg5b     flt   00e0f741             30.984
+Tg5h     flt   00c0fb41             31.469
+Tg5q     flt   00c0f641             30.844
+Tg5t     flt   00c0f641             30.844
+Tg63     flt   00c0f641             30.844
+Tg66     flt   0000f741             30.875
+Tg69     flt   00a0f641             30.828
+Tg6C     flt   00c0f641             30.844
+Tg6F     flt   00a0f641             30.828
+Tg6I     flt   00c0f641             30.844
+Tg6L     flt   00c0f641             30.844
+Tg6O     flt   00a0f641             30.828
+Tg6e     flt   0000f741             30.875
+Tg6h     flt   0000f741             30.875
+Tg6q     flt   0040f741             30.906
+Tg6t     flt   0020f741             30.891
+Tg6w     flt   00e0f641             30.859
+Tg70     flt   0020f741             30.891
+Tg73     flt   0000f741             30.875
+Tg76     flt   00e0f641             30.859
+Tg7C     flt   00c0f641             30.844
+Tg7F     flt   00c0f641             30.844
+Tg7L     flt   00c0fb41             31.469
+Tm00     flt   0040f941             31.156
+Tm04     flt   00a0f841             31.078
+Tm08     flt   00a0f141             30.203
+Tm0C     flt   0000f641             30.750
+Tm0G     flt   0060f941             31.172
+Tm0K     flt   00a0f441             30.578
+Tm0O     flt   0020ff41             31.891
+Tm0R     flt   0020fe41             31.766
+Tm0U     flt   0000f941             31.125
+Tm0X     flt   00e0f741             30.984
+Tm0a     flt   00e0f941             31.234
+Tm0d     flt   0080f241             30.312
+Tm0g     flt   00e0f841             31.109
+Tm0j     flt   00e0f441             30.609
+Tm0m     flt   0020eb41             29.391
+Tm0p     flt   00c0f941             31.219
+Tm0u     flt   0000f341             30.375
+Tm0y     flt   00400842             34.062
+Tm1E     flt   0060f341             30.422
+Tm1I     flt   0020ef41             29.891
+Tm1M     flt   0080fb41             31.438
+Tm1Q     flt   00c0fb41             31.469
+Tm1U     flt   00e0fb41             31.484
+Tm1Y     flt   00c0fb41             31.469
+Tm1c     flt   00a0fb41             31.453
+Tm1g     flt   00e0fb41             31.484
+Tm1k     flt   00a0fb41             31.453
+Tm1o     flt   0020fb41             31.391
+Tm1s     flt   0000fb41             31.375
+Tm1x     flt   0080fb41             31.438
+Tm21     flt   00a0fb41             31.453
+Tm25     flt   0040fb41             31.406
+Tm29     flt   0040fb41             31.406
+Tm2D     flt   0060fb41             31.422
+Tm2H     flt   0040fb41             31.406
+Tm2L     flt   0000fc41             31.500
+Tm2P     flt   00e0fb41             31.484
+Tm2T     flt   00400842             34.062
+Tm2j     flt   0020fb41             31.391
+Tm2n     flt   0040fb41             31.406
+Tp00     flt   00801242             36.625
+Tp04     flt   00d00a42             34.703
+Tp08     flt   00400c42             35.062
+Tp0C     flt   00701542             37.359
+Tp0G     flt   00100d42             35.266
+Tp0K     flt   00d00b42             34.953
+Tp0O     flt   00100e42             35.516
+Tp0R     flt   00500842             34.078
+Tp0U     flt   00d00742             33.953
+Tp0X     flt   00d00c42             35.203
+Tp0a     flt   00400842             34.062
+Tp0d     flt   00a00642             33.656
+Tp0g     flt   00600c42             35.094
+Tp0j     flt   00300742             33.797
+Tp0m     flt   00700c42             35.109
+Tp0p     flt   00c00d42             35.438
+Tp0u     flt   00700842             34.109
+Tp0y     flt   00300742             33.797
+Tp1E     flt   00c0fa41             31.344
+Tp1I     flt   00900242             32.641
+Tp1Q     flt   00b00042             32.172
+Tp1U     flt   00100142             32.266
+Tp1g     flt   00a0fe41             31.828
+Ts00     flt   0020ea41             29.266
+Ts04     flt   0080f341             30.438
+Ts08     flt   00c0f241             30.344
+Ts0C     flt   00a0f641             30.828
+Ts0G     flt   00b00242             32.672
+Ts0K     flt   0080fc41             31.562
+Ts0O     flt   0060f741             30.922
+Ts0R     flt   00e0fa41             31.359
+Ts0U     flt   0060fc41             31.547
+Ts0X     flt   0000f741             30.875
+Ts0a     flt   0060f741             30.922
+Ts0d     flt   00a0f641             30.828
+Ts0g     flt   00c0f641             30.844
+Tz11     flt   00000000             0.000
+Tz12     flt   00000000             0.000
+Tz13     flt   00000000             0.000
+Tz14     flt   00000000             0.000
+Tz15     flt   00000000             0.000
+Tz16     flt   00000000             0.000
+Tz17     flt   00000000             0.000
+Tz18     flt   00000000             0.000
+Tz1j     flt   00000000             0.000
+V5SC     flt   73c4a640             5.211
+VD0R     flt   95bb4141             12.108
+VMVC     flt   c17b7440             3.820
+VMVR     flt   c1ca7340             3.809
+VP0b     flt   00d8733f             0.953
+VP1b     flt   00ce483f             0.784
+VP1l     flt   008c5340             3.305
+VP2b     flt   0009873f             1.055
+VP2l     flt   00a3e63f             1.802
+VP4b     flt   0006233f             0.637
+VP5l     flt   80cbe63f             1.803
+VP7l     flt   c0135340             3.298
+VP8l     flt   00a34c3f             0.799
+VP9b     flt   00e19d3f             1.233
+VPal     flt   00f8993f             1.203
+VPbb     flt   00815e3f             0.869
+VPdb     flt   00729f3f             1.246
+VPeb     flt   001d4f3f             0.809
+VPkl     flt   80a7993f             1.200
+VR0b     flt   80fc863f             1.055
+VR1b     flt   0000d03a             0.002
+VR2b     flt   001f4a3f             0.790
+VR3b     flt   80d6e63f             1.803
+VR4b     flt   8033813f             1.009
+VR7b     flt   80d6903f             1.132
+VR8l     flt   00963a3f             0.729
+VR9b     flt   00aa5c3f             0.862
+VRTC     flt   80873b40             2.930
+VRbb     flt   005a0f3f             0.560
+VReb     flt   8016e83f             1.813
+VS0b     flt   00334a3f             0.790
+VS1b     flt   0000d03a             0.002
+VS2b     flt   0063133f             0.576
+VS3b     flt   0086e63f             1.801
+VS4b     flt   80e3803f             1.007
+VS7b     flt   005f493f             0.787
+VS7l     flt   c0305340             3.300
+VS9b     flt   00810f3f             0.561
+VSP2     flt   c1de7340             3.810
+VSVC     flt   d942e53f             1.791
+VSbb     flt   00ee323f             0.699
+VSbl     flt   005ee63f             1.800
+VSdb     flt   800e903f             1.125
+VSdl     flt   00c0993f             1.201
+aDC!     ui32  00000000             0.000
+aDC#     ui32  db000000             3674210304.000
+aDC?     ui32  00000000             0.000
+aDCR     ioft  0000000000000000     
+aP00     ui32  ff070000             4278648832.000
+aP01     ui32  fe070000             4261871616.000
+aP02     ui32  30010000             805371904.000
+aP58     ui32  a3060000             2735079424.000
+aP59     ui32  a1060000             2701524992.000
+aP5a     ui32  a3060000             2735079424.000
+aP5b     ui32  9a060000             2584084480.000
+aP5c     ui32  00000000             0.000
+aP5d     ui32  99060000             2567307264.000
+aP5e     ui32  00000000             0.000
+aP70     ui32  00000000             0.000
+aP71     ui32  00000000             0.000
+aP72     ui32  86030000             2248343552.000
+aP73     ui32  08000000             134217728.000
+aP74     ui32  01000000             16777216.000
+aP75     ui32  01000000             16777216.000
+aP76     ui32  00000000             0.000
+aP77     ui32  01000000             16777216.000
+aP78     ui32  00000000             0.000
+aP79     ui32  00000000             0.000
+aP7a     ui32  0d000000             218103808.000
+aP7b     ui32  0d000000             218103808.000
+aP7c     ui32  56010000             1442906112.000
+aP7d     ui32  01000000             16777216.000
+aP7e     ui32  6f030000             1862467584.000
+aP7f     ui32  31030000             822280192.000
+aP80     ui32  00000000             0.000
+aPMX     ui8   00                   0.000
+bHLD     ui32  00000000             0.000
+bPHD     flag  00                   
+bRIN     ui32  00000000             0.000
+bVDN     ui32  00000000             0.000
+bVUP     ui32  00000000             0.000
+bpli     ui32  00000000             0.000
+bpls     ui8   00                   0.000
+ceF1     flt   00000000             0.000
+ceFa     flt   00000000             0.000
+ceFc     flt   00000000             0.000
+ceFg     flt   00000000             0.000
+ceFn     flt   00000000             0.000
+ceFv     flt   00000000             0.000
+ceNn     flt   00000000             0.000
+ceP1     flt   00000000             0.000
+cePa     flt   00000000             0.000
+cePw     flt   00000000             0.000
+ceU1     flt   00000000             0.000
+ceUR     flt   00000000             0.000
+cepm     flt   00000000             0.000
+cf12     flt   0000d742             107.500
+cf13     flt   0000d742             107.500
+cf14     flt   0000e842             116.000
+cf15     flt   0000e842             116.000
+cf19     flt   0000d742             107.500
+cf1a     flt   0000d742             107.500
+cf1f     flt   0000e842             116.000
+cf1g     flt   0000e842             116.000
+cf1s     flt   0000d742             107.500
+cf1t     flt   0000d742             107.500
+cmDH     flt   00000000             0.000
+cmDL     flt   00000000             0.000
+cmDM     flt   00000000             0.000
+cmDS     flt   00000000             0.000
+cmDU     flt   00000000             0.000
+cmDc     flt   0000c8c2             -100.000
+cmDd     flt   0000c8c2             -100.000
+cmDx     flt   00000000             0.000
+cmFA     flt   00000000             0.000
+cmFC     flt   00000000             0.000
+cmFG     flt   00000000             0.000
+cmFS     flt   000080bf             -1.000
+cmFV     flt   00000000             0.000
+cmFn     flt   00000000             0.000
+cmFs     flt   00000000             0.000
+cmHL     flt   00000000             0.000
+cmMS     flt   00000000             0.000
+cmMs     si32  00000000             
+cmP1     flt   00000000             0.000
+cmTm     flt   0000803f             1.000
+cmU1     flt   00000000             0.000
+cmrx     flt   00000000             0.000
+csF1     flt   00000000             0.000
+csFa     flt   00000000             0.000
+csFc     flt   00000000             0.000
+csFg     flt   00000000             0.000
+csFn     flt   00000000             0.000
+csFv     flt   00000000             0.000
+csSW     flt   0000803f             1.000
+csUR     flt   00000000             0.000
+dict     flt   00000000             0.000
+ditt     flt   00000000             0.000
+dsNn     flt   f8b9b7bc             -0.022
+eFv0     flt   337f99c2             -76.748
+eFv2     flt   337f99c2             -76.748
+eFv5     flt   cdf494c2             -74.478
+eFv7     flt   cdf494c2             -74.478
+eFvA     flt   9ab18ec2             -71.347
+eFvc     flt   90038ec2             -71.007
+eFvd     flt   33678ec2             -71.202
+eFvj     flt   c61790c2             -72.046
+eVV0     flt   90038ec2             -71.007
+eVVi     si32  04000000             
+ecNn     flt   883d87c2             -67.620
+edNn     flt   842e87c2             -67.591
+eeF1     flt   823050c1             -13.012
+eeFa     flt   00f058c2             -54.234
+eeFc     flt   29fd51c2             -52.497
+eeFg     flt   002058c2             -54.031
+eeFn     flt   bfde72c2             -60.718
+eeNn     flt   883d87c2             -67.620
+eeP1     flt   4118b8c1             -23.012
+eePa     flt   0000c8c2             -100.000
+eePw     flt   0000c8c2             -100.000
+eeU1     flt   0000c8c2             -100.000
+eeUR     flt   0000a5c3             -330.000
+eepm     flt   000058c1             -13.500
+f000     flt   f05de241             28.296
+f001     flt   b8afe841             29.086
+f002     flt   608bec41             29.568
+f003     flt   e8c1d441             26.595
+f004     flt   00cbce41             25.849
+fRMN     flt   00007a44             1000.000
+fRMX     flt   00401c45             2500.000
+fRNA     flt   81049341             18.377
+fRNC     flt   81049341             18.377
+fRNG     flt   81049341             18.377
+fRNN     flt   17b7d138             0.000
+fRNX     flt   81049341             18.377
+fRmp     flt   00000000             0.000
+fRof     flt   0000c842             100.000
+fc0S     si32  00000000             
+fc0T     flt   00007a44             1000.000
+fdBA     flt   48fbda40             6.843
+fdS0     flt   353e5b41             13.703
+fdS1     flt   d7872641             10.408
+fdS2     flt   65f9f340             7.624
+fdSm     flt   353e5b41             13.703
+fdU0     flt   b40a583d             0.053
+feFv     flt   90038ec2             -71.007
+fpH0     flt   ce7f6c41             14.781
+fpH1     flt   f2dc5841             13.554
+ft00     flt   4a43e541             28.658
+ft01     flt   263cec41             29.529
+ft02     flt   2734ef41             29.900
+ft03     flt   2f10d541             26.633
+ft04     flt   6d7ed041             26.062
+ftD0     flt   c9fe2d42             43.499
+ftD1     flt   e21b2d42             43.277
+ftDa     flt   00102b42             42.766
+ftDc     flt   d7023242             44.503
+ftDg     flt   00e02b42             42.969
+ftFn     flt   8242ca41             25.282
+ftNS     flt   df09cb41             25.380
+ftrx     flt   00000000             0.000
+fuF1     flt   00001842             38.000
+fuFa     flt   0000c242             97.000
+fuFc     flt   0000c242             97.000
+fuFg     flt   0000c242             97.000
+fuFn     flt   0000ac42             86.000
+fuNn     flt   0000ba42             93.000
+fuU1     flt   00004843             200.000
+gP01     ui32  00000000             0.000
+gP02     ui32  00000000             0.000
+gP03     ui32  00000000             0.000
+gP04     ui32  00000000             0.000
+gP05     ui32  00000000             0.000
+gP06     ui32  00000000             0.000
+gP07     ui32  00000000             0.000
+gP08     ui32  00000000             0.000
+gP09     ui32  00000000             0.000
+gP0a     ui32  00000000             0.000
+gP0b     ui32  00000000             0.000
+gP0c     ui32  00000000             0.000
+gP0d     ui32  00000000             0.000
+gP0e     ui32  00000000             0.000
+gP0f     ui32  00000000             0.000
+gP10     ui32  00000000             0.000
+gP11     ui32  00000000             0.000
+gP12     ui32  00000000             0.000
+gP13     ui32  00000000             0.000
+gP14     ui32  00000000             0.000
+gP15     ui32  00000000             0.000
+gP16     ui32  00000000             0.000
+gP17     ui32  00000000             0.000
+gP18     ui32  00000000             0.000
+gP19     ui32  00000000             0.000
+gP1a     ui32  00000000             0.000
+gP1b     ui32  00000000             0.000
+gP1c     ui32  00000000             0.000
+gP1d     ui32  00000000             0.000
+gp01     ui32  00000000             0.000
+gp02     ui32  00000000             0.000
+gp03     ui32  00000000             0.000
+gp0e     ui32  00000000             0.000
+gp1c     ui32  00000000             0.000
+gp1d     ui32  00000000             0.000
+iaDC     flt   00000000             0.000
+iaDD     flt   00000000             0.000
+iaF1     flt   00001842             38.000
+iaFL     flt   00007a44             1000.000
+iaFU     flt   00008144             1032.000
+iaFa     flt   0000c242             97.000
+iaFc     flt   0000c242             97.000
+iaFg     flt   0000c242             97.000
+iaFh     flt   00001645             2400.000
+iaFl     flt   00808944             1100.000
+iaFn     flt   0000ac42             86.000
+iaf1     flt   0000803f             1.000
+iann     flt   0040f0bc             -0.029
+isF1     flt   00000000             0.000
+isFa     flt   00000000             0.000
+isFc     flt   00000000             0.000
+isFg     flt   00000000             0.000
+isFn     flt   00000000             0.000
+isFv     flt   00000000             0.000
+isNn     flt   00000000             0.000
+isP1     flt   00000000             0.000
+isPa     flt   00000000             0.000
+isPw     flt   00000000             0.000
+isU1     flt   00000000             0.000
+isUR     flt   00000000             0.000
+ispm     flt   00000000             0.000
+mRCM     si32  00000000             
+mTLL     si32  00000000             
+mTPL     si32  00000000             
+maF1     si32  00000000             
+maFa     si32  00000000             
+maFc     si32  00000000             
+maFg     si32  00000000             
+maFn     si32  00000000             
+maFv     si32  00000000             
+maLR     flt   00000000             0.000
+maP1     si32  00000000             
+maPR     flt   00000000             0.000
+maPa     si32  00000000             
+maPw     si32  00000000             
+maSR     flt   00000000             0.000
+maU1     si32  00000000             
+maUR     si32  00000000             
+mdNn     flt   00000000             0.000
+mePa     flt   0000c8c2             -100.000
+mePw     flt   0000fac3             -500.000
+meU1     flt   0000c8c2             -100.000
+meUR     flt   3c8214c4             -594.035
+mepH     flt   0000c8c2             -100.000
+mepM     flt   0000c8c2             -100.000
+mepS     flt   0000c8c2             -100.000
+mepm     flt   0000c8c2             -100.000
+miF1     flt   d43c24c1             -10.265
+miFa     flt   162853c2             -52.789
+miFc     flt   13fd4bc2             -50.997
+miFg     flt   855152c2             -52.580
+miFn     flt   7ae86dc2             -59.477
+miFv     flt   ef258ac2             -69.074
+miNn     flt   883d87c2             -67.620
+miP1     flt   58b785c2             -66.858
+midv     flt   00004040             3.000
+mlNn     flt   0000c842             100.000
+mlmx     flt   0000c842             100.000
+mlpH     flt   00000000             0.000
+mlpM     flt   00000000             0.000
+mlpS     flt   00000000             0.000
+mlpm     flt   00000000             0.000
+mmMD     si32  01000000             
+mmP1     si32  00000000             
+mmPN     si32  00000000             
+mmPa     si32  00000000             
+mmPw     si32  00000000             
+mmTL     si32  00000000             
+mmTP     si32  00000000             
+mmTT     si32  00000000             
+mmU1     si32  00000000             
+mmV2     si32  00000000             
+mmdv     si32  03000000             
+moFL     flt   00000042             32.000
+moFU     flt   00000042             32.000
+moFl     flt   0000fa43             500.000
+moFu     flt   00000000             0.000
+mpF1     flt   d43c24c1             -10.265
+mpFa     flt   162853c2             -52.789
+mpFc     flt   13fd4bc2             -50.997
+mpFg     flt   855152c2             -52.580
+mpFn     flt   7ae86dc2             -59.477
+mpFv     flt   ef258ac2             -69.074
+mpNn     flt   883d87c2             -67.620
+mpP1     flt   58b785c2             -66.858
+msP0     flt   fe86c442             98.264
+msP1     flt   9688c642             99.267
+msP2     flt   0000c842             100.000
+msU0     flt   0000c842             100.000
+msl0     flt   d278ea41             29.309
+msl1     flt   6f3f5542             53.312
+msl2     flt   b9309342             73.595
+msn0     flt   d278ea41             29.309
+msn1     flt   6f3f5542             53.312
+msn2     flt   b9309342             73.595
+msp0     flt   fe86c442             98.264
+msp1     flt   9688c642             99.267
+msp2     flt   0000c842             100.000
+msu0     flt   0000c842             100.000
+msu1     flt   0000c842             100.000
+msu2     flt   0000c842             100.000
+mw00     flt   00000000             0.000
+mxFL     flt   00000042             32.000
+mxFU     flt   00000042             32.000
+mxS1     flt   bfe7c741             24.988
+mxf0     flt   17b7d138             0.000
+oF00     flt   00000040             2.000
+oF01     flt   00006040             3.500
+oF18     flt   00009041             18.000
+oF19     flt   0080ab43             343.000
+oF20     flt   00000041             8.000
+oF21     flt   00008040             4.000
+oF22     flt   00009041             18.000
+oF23     flt   00008040             4.000
+oF24     flt   00009041             18.000
+oF25     flt   0000dc42             110.000
+oF26     flt   00008040             4.000
+oF27     flt   00008040             4.000
+oF28     flt   00009041             18.000
+oF29     flt   00008040             4.000
+oFNN     flt   0000f041             30.000
+oFnn     flt   0000a040             5.000
+oFs0     flt   0000c8c2             -100.000
+oFs1     flt   000000c0             -2.000
+oFs2     flt   00000000             0.000
+oFs3     flt   0000803f             1.000
+oFs4     flt   00000040             2.000
+oFs5     flt   0000c8c2             -100.000
+oFs6     flt   0000a0c0             -5.000
+oFs7     flt   00000000             0.000
+oFs8     flt   0000803f             1.000
+oFs9     flt   00000040             2.000
+oFsa     flt   00004040             3.000
+oFsb     flt   0000c842             100.000
+oFsc     flt   00004040             3.000
+oFsd     flt   0000c842             100.000
+oFv0     flt   0000c8c2             -100.000
+oFv1     flt   000080c0             -4.000
+oFv2     flt   00000000             0.000
+oFv3     flt   0000803f             1.000
+oFv4     flt   00000040             2.000
+oFv5     flt   0000c8c2             -100.000
+oFv6     flt   000020c1             -10.000
+oFv7     flt   00000000             0.000
+oFv8     flt   0000803f             1.000
+oFv9     flt   00000040             2.000
+oFva     flt   00004040             3.000
+oFvb     flt   0000c842             100.000
+oFvc     flt   00004040             3.000
+oFvd     flt   0000c842             100.000
+oHP0     flt   00003443             180.000
+oHP1     flt   00003443             180.000
+oHP2     flt   00003443             180.000
+oHP3     flt   00003443             180.000
+oHP4     flt   00003443             180.000
+oIA0     flt   0000c8c2             -100.000
+oIA1     flt   000000c0             -2.000
+oIA2     flt   00000000             0.000
+oIA3     flt   0000803f             1.000
+oIA4     flt   00000040             2.000
+oIA5     flt   0000c8c2             -100.000
+oIA6     flt   0000a0c0             -5.000
+oIA7     flt   00000000             0.000
+oIA8     flt   0000803f             1.000
+oIA9     flt   00000040             2.000
+oIAa     flt   00004040             3.000
+oIAb     flt   0000c842             100.000
+oIAc     flt   00004040             3.000
+oIAd     flt   0000c842             100.000
+oIC0     flt   0000c8c2             -100.000
+oIC1     flt   000000c0             -2.000
+oIC2     flt   00000000             0.000
+oIC3     flt   0000803f             1.000
+oIC4     flt   00000040             2.000
+oIC5     flt   0000c8c2             -100.000
+oIC6     flt   0000a0c0             -5.000
+oIC7     flt   00000000             0.000
+oIC8     flt   0000803f             1.000
+oIC9     flt   00000040             2.000
+oICa     flt   00004040             3.000
+oICb     flt   0000c842             100.000
+oICc     flt   00004040             3.000
+oICd     flt   0000c842             100.000
+oIG0     flt   0000c8c2             -100.000
+oIG1     flt   000000c0             -2.000
+oIG2     flt   00000000             0.000
+oIG3     flt   0000803f             1.000
+oIG4     flt   00000040             2.000
+oIG5     flt   0000c8c2             -100.000
+oIG6     flt   0000a0c0             -5.000
+oIG7     flt   00000000             0.000
+oIG8     flt   0000803f             1.000
+oIG9     flt   00000040             2.000
+oIGa     flt   00004040             3.000
+oIGb     flt   0000c842             100.000
+oIGc     flt   00004040             3.000
+oIGd     flt   0000c842             100.000
+oIN0     flt   0000c8c2             -100.000
+oIN1     flt   000000c0             -2.000
+oIN2     flt   00000000             0.000
+oIN3     flt   0000803f             1.000
+oIN4     flt   00000040             2.000
+oIN5     flt   0000c8c2             -100.000
+oIN6     flt   0000a0c0             -5.000
+oIN7     flt   00000000             0.000
+oIN8     flt   0000803f             1.000
+oIN9     flt   00000040             2.000
+oINa     flt   00004040             3.000
+oINb     flt   0000c842             100.000
+oINc     flt   00004040             3.000
+oINd     flt   0000c842             100.000
+oIs0     flt   0000c8c2             -100.000
+oIs1     flt   000000c0             -2.000
+oIs2     flt   00000000             0.000
+oIs3     flt   0000803f             1.000
+oIs4     flt   00000040             2.000
+oIs5     flt   0000c8c2             -100.000
+oIs6     flt   0000a0c0             -5.000
+oIs7     flt   00000000             0.000
+oIs8     flt   0000803f             1.000
+oIs9     flt   00000040             2.000
+oIsa     flt   00004040             3.000
+oIsb     flt   0000c842             100.000
+oIsc     flt   00004040             3.000
+oIsd     flt   0000c842             100.000
+oIv0     flt   0000c8c2             -100.000
+oIv1     flt   000080c0             -4.000
+oIv2     flt   00000000             0.000
+oIv3     flt   0000803f             1.000
+oIv4     flt   00000040             2.000
+oIv5     flt   0000c8c2             -100.000
+oIv6     flt   000020c1             -10.000
+oIv7     flt   00000000             0.000
+oIv8     flt   0000803f             1.000
+oIv9     flt   00000040             2.000
+oIva     flt   0000c040             6.000
+oIvb     flt   0000c842             100.000
+oIvc     flt   0000c040             6.000
+oIvd     flt   0000dc42             110.000
+oNK0     flt   295c8f3d             0.070
+oNK1     flt   295c8f3d             0.070
+oNK2     flt   cdcccc3d             0.100
+oNK3     flt   cdcccc3d             0.100
+oNK4     flt   cdcc4c3e             0.200
+oNK5     flt   cdccccbd             -0.100
+oNK6     flt   295c8fbd             -0.070
+oNK7     flt   0ad7a3bc             -0.020
+oNK8     flt   00000000             0.000
+oNK9     flt   0ad7a33c             0.020
+oNKa     flt   9a99193f             0.600
+oNKb     flt   0000803f             1.000
+oNKc     flt   9a99993e             0.300
+oNKd     flt   9a99993e             0.300
+oNNc     flt   0000a040             5.000
+oNNd     flt   00002042             40.000
+oNd0     flt   00000000             0.000
+oNd1     flt   0000803e             0.250
+oNd2     flt   0000003f             0.500
+oNd3     flt   0000803f             1.000
+oNd4     flt   00000040             2.000
+oNd5     flt   00000000             0.000
+oNd6     flt   0000803e             0.250
+oNd7     flt   0000003f             0.500
+oNd8     flt   0000803f             1.000
+oNd9     flt   00000040             2.000
+oNda     flt   00004040             3.000
+oNdb     flt   0000c842             100.000
+oNdc     flt   00004040             3.000
+oNdd     flt   0000c842             100.000
+oNi0     flt   0000c8c2             -100.000
+oNi1     flt   000000c0             -2.000
+oNi2     flt   00000000             0.000
+oNi3     flt   0000803f             1.000
+oNi4     flt   0000c842             100.000
+oNi5     flt   0000c8c2             -100.000
+oNi6     flt   000000c0             -2.000
+oNi7     flt   00000000             0.000
+oNi8     flt   0000803f             1.000
+oNi9     flt   0000c842             100.000
+oNk0     flt   0000c03f             1.500
+oNk1     flt   0000c03f             1.500
+oNk2     flt   0000803f             1.000
+oNk3     flt   0000803f             1.000
+oNk4     flt   00000040             2.000
+oNk5     flt   cdccccbd             -0.100
+oNk6     flt   295c8fbd             -0.070
+oNk7     flt   0ad7a3bc             -0.020
+oNk8     flt   00000000             0.000
+oNk9     flt   0ad7a33c             0.020
+oNka     flt   9a99193f             0.600
+oNkb     flt   0000803f             1.000
+oNkc     flt   00004040             3.000
+oNkd     flt   00004040             3.000
+oNm0     flt   0000c8c2             -100.000
+oNm1     flt   000000c0             -2.000
+oNm2     flt   00000000             0.000
+oNm3     flt   0000803f             1.000
+oNm4     flt   0000c842             100.000
+oNm5     flt   0000c8c2             -100.000
+oNm6     flt   000000c0             -2.000
+oNm7     flt   00000000             0.000
+oNm8     flt   0000803f             1.000
+oNm9     flt   0000c842             100.000
+oNnc     flt   00000000             0.000
+oNnd     flt   0000a040             5.000
+oPA0     flt   0000c8c2             -100.000
+oPA1     flt   000000c0             -2.000
+oPA2     flt   00000000             0.000
+oPA3     flt   0000803f             1.000
+oPA4     flt   00000040             2.000
+oPA5     flt   0000c8c2             -100.000
+oPA6     flt   0000a0c0             -5.000
+oPA7     flt   00000000             0.000
+oPA8     flt   0000803f             1.000
+oPA9     flt   00000040             2.000
+oPAa     flt   00004040             3.000
+oPAb     flt   0000c842             100.000
+oPAc     flt   00004040             3.000
+oPAd     flt   0000c842             100.000
+oPC0     flt   0000c8c2             -100.000
+oPC1     flt   000000c0             -2.000
+oPC2     flt   00000000             0.000
+oPC3     flt   0000803f             1.000
+oPC4     flt   00000040             2.000
+oPC5     flt   0000c8c2             -100.000
+oPC6     flt   0000a0c0             -5.000
+oPC7     flt   00000000             0.000
+oPC8     flt   0000803f             1.000
+oPC9     flt   00000040             2.000
+oPCa     flt   00004040             3.000
+oPCb     flt   0000c842             100.000
+oPCc     flt   00004040             3.000
+oPCd     flt   0000c842             100.000
+oPG0     flt   0000c8c2             -100.000
+oPG1     flt   000000c0             -2.000
+oPG2     flt   00000000             0.000
+oPG3     flt   0000803f             1.000
+oPG4     flt   00000040             2.000
+oPG5     flt   0000c8c2             -100.000
+oPG6     flt   0000a0c0             -5.000
+oPG7     flt   00000000             0.000
+oPG8     flt   0000803f             1.000
+oPG9     flt   00000040             2.000
+oPGa     flt   00004040             3.000
+oPGb     flt   0000c842             100.000
+oPGc     flt   00004040             3.000
+oPGd     flt   0000c842             100.000
+oPN0     flt   0000c8c2             -100.000
+oPN1     flt   000000c0             -2.000
+oPN2     flt   00000000             0.000
+oPN3     flt   0000803f             1.000
+oPN4     flt   00000040             2.000
+oPN5     flt   0000c8c2             -100.000
+oPN6     flt   0000a0c0             -5.000
+oPN7     flt   00000000             0.000
+oPN8     flt   0000803f             1.000
+oPN9     flt   00000040             2.000
+oPNa     flt   00004040             3.000
+oPNb     flt   0000c842             100.000
+oPNc     flt   00004040             3.000
+oPNd     flt   0000c842             100.000
+oSE0     flt   0000d242             105.000
+oSE1     flt   0000d242             105.000
+oSE2     flt   0000803f             1.000
+oSE3     flt   0000d242             105.000
+oSI0     flt   000096c3             -300.000
+oSI1     flt   cdcc4cbe             -0.200
+oSI2     flt   00000000             0.000
+oSI3     flt   0000803f             1.000
+oSI4     flt   00000040             2.000
+oSI5     flt   0000c8c2             -100.000
+oSI6     flt   000080bf             -1.000
+oSI7     flt   00000000             0.000
+oSI8     flt   0000803f             1.000
+oSI9     flt   00000040             2.000
+oSIa     flt   00004040             3.000
+oSIb     flt   0000a041             20.000
+oSIc     flt   00004040             3.000
+oSId     flt   00007042             60.000
+oSM0     flt   000096c3             -300.000
+oSM1     flt   cdcc4cbe             -0.200
+oSM2     flt   00000000             0.000
+oSM3     flt   0000803f             1.000
+oSM4     flt   00000040             2.000
+oSM5     flt   0000c8c2             -100.000
+oSM6     flt   000080bf             -1.000
+oSM7     flt   00000000             0.000
+oSM8     flt   0000803f             1.000
+oSM9     flt   00000040             2.000
+oSMa     flt   00004040             3.000
+oSMb     flt   0000a041             20.000
+oSMc     flt   00004040             3.000
+oSMd     flt   00007042             60.000
+oST0     flt   0000d242             105.000
+oST1     flt   0000d242             105.000
+oST2     flt   0000b442             90.000
+oST3     flt   0000d242             105.000
+oTC4     flt   0000f041             30.000
+oTIa     flt   00000000             0.000
+oTIc     flt   00000000             0.000
+oTIg     flt   00000000             0.000
+oTMs     flt   00000000             0.000
+oTNs     flt   00004040             3.000
+oTOa     flt   0000a040             5.000
+oTOc     flt   0000a040             5.000
+oTOg     flt   0000a040             5.000
+oUr0     flt   00c0dac5             -7000.000
+oUr1     flt   000000c1             -8.000
+oUr2     flt   00000000             0.000
+oUr3     flt   0000803f             1.000
+oUr4     flt   00c05a45             3500.000
+oUr5     flt   00c05ac5             -3500.000
+oUr6     flt   000020c2             -40.000
+oUr7     flt   00000000             0.000
+oUr8     flt   0000803f             1.000
+oUr9     flt   00c05a45             3500.000
+obmf     si32  00000000             
+obmp     si32  00000000             
+obmu     si32  00000000             
+ocU1     flt   000000c0             -2.000
+ocer     flt   0000c842             100.000
+ocey     flt   0000c842             100.000
+ocp2     flt   000000c0             -2.000
+ocp3     flt   00004040             3.000
+octa     flt   0000a0c0             -5.000
+octw     flt   0000c8c2             -100.000
+oded     flt   00000000             0.000
+odeu     flt   00000000             0.000
+odf2     flt   0000803f             1.000
+odf3     flt   0000c8c2             -100.000
+odh0     flt   00000000             0.000
+odh1     flt   00803b45             3000.000
+odh2     flt   00c04145             3100.000
+odh3     flt   00004845             3200.000
+odm0     flt   00000000             0.000
+odm1     flt   00803b45             3000.000
+odm2     flt   00c04145             3100.000
+odm3     flt   00004845             3200.000
+odnm     flt   00009642             75.000
+odnn     flt   00000000             0.000
+odp0     flt   00000000             0.000
+odp1     flt   00000000             0.000
+odp2     flt   00000000             0.000
+odp3     flt   00000000             0.000
+ods0     flt   00000000             0.000
+ods1     flt   0000803f             1.000
+ods2     flt   00000040             2.000
+ods3     flt   00004040             3.000
+odu0     flt   00000000             0.000
+odu1     flt   0000803f             1.000
+odu2     flt   00000040             2.000
+odu3     flt   00004040             3.000
+of10     flt   0000803f             1.000
+of11     flt   0000a040             5.000
+of12     flt   0000f041             30.000
+of13     flt   0000803f             1.000
+of14     flt   0000a040             5.000
+ofA8     flt   0000a040             5.000
+ofAc     flt   0000a040             5.000
+ofAd     flt   0000b442             90.000
+ofB6     flt   0000a040             5.000
+ofCc     flt   0000a040             5.000
+ofCd     flt   0000b442             90.000
+ofD0     flt   0000a040             5.000
+ofD1     flt   0000f041             30.000
+ofD2     flt   0000a040             5.000
+ofD3     flt   0000f041             30.000
+ofD8     flt   0000a040             5.000
+ofDN     flt   0000a040             5.000
+ofDe     flt   0000a040             5.000
+ofDf     flt   0000b442             90.000
+ofGc     flt   0000a040             5.000
+ofGd     flt   0000b442             90.000
+ofN0     flt   0000c841             25.000
+ofNc     flt   0000a040             5.000
+ofNd     flt   00002042             40.000
+ofVT     flt   0000a040             5.000
+ofdN     flt   0000a040             5.000
+ofr1     flt   00000000             0.000
+ofs0     flt   cdcc4c3d             0.050
+ofs1     flt   cdcc4c3d             0.050
+oft0     flt   0000f041             30.000
+oft1     flt   0000f041             30.000
+oft2     flt   0000f041             30.000
+oft3     flt   0000f041             30.000
+oft4     flt   0000f041             30.000
+ofu1     flt   00000000             0.000
+ofv0     flt   0000e0c0             -7.000
+ofv2     flt   0000e0c0             -7.000
+ofv5     flt   0000e0c0             -7.000
+ofv7     flt   0000e0c0             -7.000
+ofvA     flt   0000e0c0             -7.000
+ofvc     flt   0000e0c0             -7.000
+ofvd     flt   0000e0c0             -7.000
+ofvj     flt   0000e0c0             -7.000
+ohb0     flt   0000a0c0             -5.000
+ohb1     flt   5c8f02bf             -0.510
+ohb3     flt   0000003f             0.500
+ohb4     flt   00000040             2.000
+ohbb     flt   6f12833a             0.001
+ohp0     flt   0000fac3             -500.000
+ohp1     flt   0000a0c1             -20.000
+ohp2     flt   00000000             0.000
+ohp3     flt   0000803f             1.000
+ohp4     flt   00002041             10.000
+ohp5     flt   0000c8c2             -100.000
+ohp6     flt   0000a0c1             -20.000
+ohp7     flt   00000000             0.000
+ohp8     flt   0000803f             1.000
+ohp9     flt   00002041             10.000
+oht0     flt   0000c8c2             -100.000
+oht1     flt   000080be             -0.250
+oht3     flt   0000003f             0.500
+oht4     flt   00000040             2.000
+ohtb     flt   00000000             0.000
+oip0     flt   00000000             0.000
+oip1     flt   00002041             10.000
+oip2     flt   00002041             10.000
+oip3     flt   00002041             10.000
+oisr     flt   0000c842             100.000
+oisy     flt   0000c842             100.000
+okdn     flt   00000000             0.000
+oki1     flt   8fc2f53c             0.030
+oki4     flt   cdcc4c3d             0.050
+oki6     flt   cdcc4c3d             0.050
+okiA     flt   0ad7a33c             0.020
+okiC     flt   0ad7233d             0.040
+okiG     flt   cdcccc3c             0.025
+okiN     flt   0ad7233d             0.040
+okiV     flt   8fc2753c             0.015
+okia     flt   295c8f3d             0.070
+okir     flt   52499d39             0.000
+okiy     flt   9a99193e             0.150
+oknj     flt   03000000             0.000
+oknk     flt   01000000             0.000
+okp1     flt   0000803f             1.000
+okp4     flt   00008040             4.000
+okp6     flt   cdcccc3d             0.100
+okpA     flt   0000803f             1.000
+okpC     flt   0000803f             1.000
+okpG     flt   3333333f             0.700
+okpN     flt   0000c03f             1.500
+okpV     flt   00004040             3.000
+okpa     flt   6666e63f             1.800
+okpr     flt   0ad7233c             0.010
+okpy     flt   00002041             10.000
+omR0     flt   0000c842             100.000
+omR1     flt   0000c842             100.000
+omR2     flt   0000c842             100.000
+omR3     flt   0000c842             100.000
+omb0     flt   0000a0c0             -5.000
+omb1     flt   5c8f02bf             -0.510
+omb3     flt   0000003f             0.500
+omb4     flt   00000040             2.000
+ombb     flt   6f12833a             0.001
+omt0     flt   0000c8c2             -100.000
+omt1     flt   000080be             -0.250
+omt3     flt   0000003f             0.500
+omt4     flt   00000040             2.000
+omtb     flt   00000000             0.000
+onm0     flt   0000c8c2             -100.000
+onm1     flt   000000c0             -2.000
+onm2     flt   00000000             0.000
+onm3     flt   0000803f             1.000
+onm4     flt   0000c842             100.000
+onm5     flt   0000a0c0             -5.000
+onm6     flt   000000c0             -2.000
+onm7     flt   00000000             0.000
+onm8     flt   0000803f             1.000
+onm9     flt   0000c842             100.000
+onu0     flt   0000ba42             93.000
+onu1     flt   0000ba42             93.000
+onu2     flt   0000ba42             93.000
+onu3     flt   0000ba42             93.000
+opp0     flt   00000000             0.000
+opp1     flt   00000040             2.000
+opp2     flt   00000040             2.000
+opp3     flt   00000040             2.000
+ort0     flt   00004843             200.000
+ort1     flt   00005841             13.500
+ort2     flt   00004841             12.500
+ort3     flt   00004841             12.500
+osb0     flt   0000a0c0             -5.000
+osb1     flt   5c8f02bf             -0.510
+osb3     flt   0000003f             0.500
+osb4     flt   00000040             2.000
+osbb     flt   6f12833a             0.001
+osd0     flt   0000c842             100.000
+osd1     flt   000000c0             -2.000
+osd2     flt   000000c0             -2.000
+osd3     flt   0000c842             100.000
+osd4     flt   000000c0             -2.000
+osd5     flt   000000c0             -2.000
+osd6     flt   0000c842             100.000
+osd7     flt   000000c0             -2.000
+osd8     flt   000000c0             -2.000
+osd9     flt   0000c842             100.000
+osda     flt   000000c0             -2.000
+osdb     flt   000000c0             -2.000
+osdc     flt   0000c842             100.000
+osdd     flt   000000c0             -2.000
+osde     flt   000000c0             -2.000
+osdf     flt   0000c842             100.000
+osdg     flt   000000c0             -2.000
+osdh     flt   000000c0             -2.000
+osdi     flt   0000c842             100.000
+osdj     flt   000000c0             -2.000
+osdk     flt   000000c0             -2.000
+osdl     flt   0000c842             100.000
+osdm     flt   000000c0             -2.000
+osdn     flt   000000c0             -2.000
+osdo     flt   0000c842             100.000
+osdp     flt   000000c0             -2.000
+osdq     flt   000000c0             -2.000
+osdr     flt   0000c842             100.000
+osds     flt   000000c0             -2.000
+osdt     flt   000000c0             -2.000
+osdu     flt   0000c842             100.000
+osdv     flt   000000c0             -2.000
+osdw     flt   000000c0             -2.000
+osdx     flt   0000c842             100.000
+osdy     flt   000000c0             -2.000
+osdz     flt   000000c0             -2.000
+ost0     flt   0000c8c2             -100.000
+ost1     flt   000080be             -0.250
+ost3     flt   0000003f             0.500
+ost4     flt   00000040             2.000
+ostb     flt   00000000             0.000
+oum0     flt   0000c8c2             -100.000
+oum1     flt   000080bf             -1.000
+oum2     flt   00000000             0.000
+oum3     flt   0000803f             1.000
+oum4     flt   0000c842             100.000
+oum5     flt   0000c8c2             -100.000
+oum6     flt   000080bf             -1.000
+oum7     flt   00000000             0.000
+oum8     flt   0000803f             1.000
+oum9     flt   0000c842             100.000
+ov00     flt   333373bf             -0.950
+ov01     flt   7b14ae3e             0.340
+ov02     flt   85ebd1be             -0.410
+ov03     flt   14aec73e             0.390
+ov04     flt   666616c0             -2.350
+ov05     flt   5c8f4240             3.040
+ovRT     flt   00005841             13.500
+ovUM     flt   77be7f3f             0.999
+ovd5     flt   0000ab43             342.000
+ovma     flt   0000803f             1.000
+ovmb     flt   00000040             2.000
+ovmc     flt   00004040             3.000
+ovn0     flt   0000803f             1.000
+ovn1     flt   000000c0             -2.000
+pcAD     hex_  0000000000000000     
+pcBK     hex_  0000000000000000     
+pcBS     hex_  0000000000000000     
+pcHS     ioft  0000000000000000     
+pcIO     hex_  0000000000000000     
+pcLD     hex_  0000000000000000     
+pcRT     hex_  0000000000000000     
+pmDB     ui32  00ff0000             16711680.000
+pmFC     hex_  0000                 
+pmFL     hex_  0100                 
+pmHC     ui8   03                   3.000
+pmVC     ui32  00000000             0.000
+ptdE     hex_  b0f2e88d0200000020ace88d02000000688de88d02000000ad00150003000000 
+rARA     ui32  00000000             0.000
+rARa     ui32  00000000             0.000
+rASO     ui32  00000000             0.000
+rASo     ui32  00000000             0.000
+rBK0     ui32  00000000             0.000
+rBK1     ui32  00000000             0.000
+rBK2     ui32  00000000             0.000
+rBK3     ui32  00000000             0.000
+rBK4     ui32  00000000             0.000
+rBK5     ui32  00000000             0.000
+rBK6     ui32  00000000             0.000
+rBK7     ui32  00000000             0.000
+rBK8     ui32  00000000             0.000
+rBK9     ui32  00000000             0.000
+rBKa     ui32  00000000             0.000
+rBKb     ui32  00000000             0.000
+rBKd     ui32  00000000             0.000
+rBKg     ui32  00000000             0.000
+rBSW     ui32  00000000             0.000
+rCPU     ui32  62020000             1644298240.000
+rCTL     ui32  00000000             0.000
+rLD0     ui32  00000000             0.000
+rLD1     ui32  00000000             0.000
+rLD2     ui32  00000000             0.000
+rLD3     ui32  00000000             0.000
+rLD5     ui32  00000000             0.000
+rLD7     ui32  00000000             0.000
+rLD8     ui32  00000000             0.000
+rLD9     ui32  00000000             0.000
+rLDa     ui32  00000000             0.000
+rLDb     ui32  00000000             0.000
+rLDd     ui32  00000000             0.000
+rLDe     ui32  00000000             0.000
+rLDg     ui32  00000000             0.000
+rLDk     ui32  00000000             0.000
+rLOW     ui32  00000000             0.000
+rRAM     ui32  7d000000             2097152000.000
+rSOC     ui32  d4030000             3556966400.000
+rVD2     ui32  76020000             1979842560.000
+rVDA     ui32  00000000             0.000
+rVDB     ui32  00000000             0.000
+rVDF     ui32  25030000             620953600.000
+rWRM     ui32  00000000             0.000
+rtF0     flt   00007a44             1000.000
+rtrx     flt   00000000             0.000
+sEEC     ui64  0000000000000000     
+sEOC     ui16  0200                 512.000
+sPST     ui32  66144307             1712603911.000
+saLR     flt   00000000             0.000
+saPR     flt   00000000             0.000
+saSR     flt   00000000             0.000
+sd00     flt   00c02a42             42.688
+sd04     flt   00c02a42             42.688
+sd08     flt   00c02a42             42.688
+sd0K     flt   00c02a42             42.688
+sd0O     flt   00c02a42             42.688
+sd0R     flt   00c02a42             42.688
+sd0d     flt   33d31c42             39.206
+sd0g     flt   33d31c42             39.206
+sd0p     flt   33d31c42             39.206
+sd0u     flt   33e31c42             39.222
+sd0y     flt   33e31c42             39.222
+sd12     flt   33d31c42             39.206
+sd16     flt   33d31c42             39.206
+sd1A     flt   33c31c42             39.191
+sd1E     flt   33c31c42             39.191
+sd1I     flt   33f31c42             39.237
+sd1c     flt   66f61942             38.491
+sd1g     flt   66f61942             38.491
+sd1s     flt   66261a42             38.537
+sd1x     flt   66161a42             38.522
+sd21     flt   66e61942             38.475
+sd25     flt   66061a42             38.506
+sd29     flt   66061a42             38.506
+sd2D     flt   66f61942             38.491
+sd2L     flt   66f61942             38.491
+sd2P     flt   66261a42             38.537
+sd2X     flt   00d02b42             42.953
+sd2j     flt   33431f42             39.816
+sd2n     flt   33431f42             39.816
+sd2z     flt   33531f42             39.831
+sd33     flt   33531f42             39.831
+sd37     flt   33431f42             39.816
+sd3B     flt   33631f42             39.847
+sd3F     flt   33531f42             39.831
+sd3J     flt   33631f42             39.847
+sd3N     flt   33531f42             39.831
+sd3R     flt   33731f42             39.862
+sd3l     flt   66761c42             39.116
+sd3p     flt   66a61c42             39.162
+sd40     flt   66561c42             39.084
+sd43     flt   66761c42             39.116
+sd46     flt   66561c42             39.084
+sd4A     flt   66861c42             39.131
+sd4D     flt   66861c42             39.131
+sd4G     flt   66a61c42             39.162
+sd4M     flt   66861c42             39.131
+sd4P     flt   66b61c42             39.178
+sd4V     flt   00d02b42             42.953
+sd4e     flt   33231d42             39.284
+sd4h     flt   33231d42             39.284
+sd4q     flt   33231d42             39.284
+sd4t     flt   33431d42             39.316
+sd4x     flt   33231d42             39.284
+sd50     flt   33231d42             39.284
+sd53     flt   33431d42             39.316
+sd56     flt   33231d42             39.284
+sd59     flt   33131d42             39.269
+sd5C     flt   33131d42             39.269
+sd5R     flt   66561a42             38.584
+sd5U     flt   66561a42             38.584
+sd5e     flt   66761a42             38.616
+sd5h     flt   66861a42             38.631
+sd5k     flt   66361a42             38.553
+sd5n     flt   66661a42             38.600
+sd5q     flt   66961a42             38.647
+sd5t     flt   66661a42             38.600
+sd60     flt   66661a42             38.600
+sd63     flt   66561a42             38.584
+sd69     flt   00e02b42             42.969
+sd6I     flt   33931c42             39.144
+sd6L     flt   33931c42             39.144
+sd6U     flt   33931c42             39.144
+sd6Y     flt   33b31c42             39.175
+sd6b     flt   33831c42             39.128
+sd6e     flt   33931c42             39.144
+sd6h     flt   33831c42             39.128
+sd6k     flt   33931c42             39.144
+sd6n     flt   33931c42             39.144
+sd6q     flt   33831c42             39.128
+sd76     flt   66e61942             38.475
+sd79     flt   66e61942             38.475
+sd7I     flt   66061a42             38.506
+sd7L     flt   66f61942             38.491
+sd7O     flt   66d61942             38.459
+sd7R     flt   66f61942             38.491
+sd7U     flt   66e61942             38.475
+sd7Y     flt   66d61942             38.459
+sd7e     flt   66c61942             38.444
+sd7h     flt   66c61942             38.444
+sd7n     flt   00e02b42             42.969
+sd7q     flt   9a391a42             38.556
+sd7t     flt   9ae91b42             38.978
+sd7w     flt   00d01842             38.203
+sd80     flt   9a991842             38.150
+sd83     flt   9a491c42             39.072
+sd86     flt   00501a42             38.578
+sd89     flt   9a291d42             39.291
+sd8C     flt   9aa91e42             39.666
+sd8F     flt   00801c42             39.125
+sd8I     flt   9a891942             38.384
+sd8L     flt   9a891c42             39.134
+sd8O     flt   00401942             38.312
+sd8R     flt   9a091a42             38.509
+sd8U     flt   9a091a42             38.509
+sd8Y     flt   00901542             37.391
+sd8b     flt   9a791a42             38.619
+sd8e     flt   9a191942             38.275
+sd8h     flt   00402842             42.062
+sd8t     flt   33e31c42             39.222
+sd8w     flt   33c31a42             38.691
+sd90     flt   9a591b42             38.838
+sd93     flt   9a791d42             39.369
+sd96     flt   00f01d42             39.484
+sd99     flt   9a791b42             38.869
+sd9C     flt   9a691d42             39.353
+sd9F     flt   00f01d42             39.484
+sd9I     flt   9a691b42             38.853
+sd9L     flt   9a291d42             39.291
+sd9O     flt   00801d42             39.375
+sd9R     flt   9a591b42             38.838
+sd9U     flt   9a691d42             39.353
+sd9Y     flt   00a01d42             39.406
+sd9b     flt   9a391b42             38.806
+sd9e     flt   9a491d42             39.322
+sd9h     flt   00a01d42             39.406
+sd9k     flt   9a991b42             38.900
+sd9n     flt   9a891d42             39.384
+sd9q     flt   00402842             42.062
+sdA3     flt   33c32042             40.191
+sdA6     flt   33d32042             40.206
+sdA9     flt   66e62e42             43.725
+sdAC     flt   66362f42             43.803
+sdAF     flt   00402c42             43.062
+sdAI     flt   66d63142             44.459
+sdAL     flt   66763142             44.366
+sdAO     flt   00d02b42             42.953
+sdAR     flt   66762a42             42.616
+sdAU     flt   66b62c42             43.178
+sdAY     flt   00d02742             41.953
+sdAb     flt   66362942             42.303
+sdAe     flt   66a62c42             43.162
+sdAh     flt   00a02642             41.656
+sdAk     flt   66c62842             42.194
+sdAn     flt   66962b42             42.897
+sdAq     flt   00702c42             43.109
+sdAt     flt   66262a42             42.537
+sdAw     flt   66d62c42             43.209
+sdAz     flt   00302742             41.797
+sdBA     flt   00601742             37.844
+sdBD     flt   00901c42             39.141
+sdBJ     flt   9a492842             42.072
+sdBM     flt   9aa92842             42.166
+sdBV     flt   9ae92642             41.728
+smF0     flt   00007a44             1000.000
+smFs     si32  01000000             
+smP1     flt   00000000             0.000
+smPa     flt   00000000             0.000
+smPw     flt   00000000             0.000
+smS1     si32  00000000             
+smT1     flt   00000000             0.000
+smU1     flt   00000000             0.000
+smW0     si32  01000000             
+smW2     si32  01000000             
+sms1     si32  00000000             
+smt1     flt   00000000             0.000
+smu1     flt   00000000             0.000
+smub     si32  00000000             
+smw0     flt   00000000             0.000
+smw2     flt   00000000             0.000
+spH0     flt   11167441             15.255
+spT0     flt   0080ab43             343.000
+spUd     flt   57f7aa3c             0.021
+stN0     flt   0000d441             26.500
+stN1     flt   0000d441             26.500
+stN2     flt   0000d241             26.250
+stN3     flt   0000d241             26.250
+stN4     flt   00000000             0.000
+stN5     flt   00000000             0.000
+stN6     flt   00000000             0.000
+stN7     flt   00000000             0.000
+stNX     flt   0000d441             26.500
+stNa     flt   0068cd41             25.676
+stNb     flt   00b8cd41             25.715
+stNx     flt   00b8cd41             25.715
+stR0     flt   00000000             0.000
+stR1     flt   00000000             0.000
+stR2     flt   00000000             0.000
+stR3     flt   00000000             0.000
+ste2     flt   00000000             0.000
+stri     si32  00000000             
+strx     flt   00000000             0.000
+stv0     flt   9a010142             32.252
+stv1     flt   66160a42             34.522
+stv3     flt   c1f1eb41             29.493
+stv6     flt   e8a0e341             28.454
+stva     flt   9a09e941             29.130
+stvb     flt   3363ea41             29.298
+stvc     flt   9ad9e941             29.231
+stvd     flt   9a39e941             29.153
+stve     flt   9ac9e841             29.098
+stvf     flt   00c0e341             28.469
+stvx     flt   9a39e941             29.153
+stvz     flt   3363ea41             29.298
+suRv     flt   00007f43             255.000
+uRCM     flt   00000000             0.000
+uSP1     flt   00000000             0.000
+uSPa     flt   00000000             0.000
+uSPw     flt   00000000             0.000
+uSU1     flt   00000000             0.000
+ufv0     flt   0000da42             109.000
+ufv2     flt   0000da42             109.000
+ufv5     flt   0000da42             109.000
+ufv7     flt   0000da42             109.000
+ufvA     flt   0000c942             100.500
+ufvc     flt   0000c942             100.500
+ufvd     flt   0000c942             100.500
+ufvj     flt   0000c942             100.500
+uu00     flt   00000000             0.000
+uu01     flt   0000803f             1.000
+uuF1     flt   00002442             41.000
+uuFa     flt   0000cc42             102.000
+uuFc     flt   0000cc42             102.000
+uuFg     flt   0000cc42             102.000
+uuFn     flt   0000b642             91.000
+uuNn     flt   0000ba42             93.000
+uuP1     flt   00004042             48.000
+uuPN     flt   00000000             0.000
+uuPa     flt   00004843             200.000
+uuPw     flt   0000fa43             500.000
+uuU1     flt   00004843             200.000
+uuUR     flt   0040a644             1330.000
+uuUT     flt   00005041             13.000
+uuV2     flt   00000000             0.000
+uuo1     flt   00004040             3.000
+uuoa     flt   0000a040             5.000
+uuoc     flt   0000a040             5.000
+uuog     flt   0000a040             5.000
+uuon     flt   0000a040             5.000
+uupa     flt   0000d242             105.000
+uupm     flt   00005841             13.500
+uupw     flt   00003443             180.000
+uupx     flt   0000fa43             500.000
+uurt     flt   00004841             12.500
+vTSp     si32  ba860100             
+voF0     flt   00007a44             1000.000
+voF1     flt   00007a44             1000.000
+voP0     flt   0080ab43             343.000
+voP1     flt   00009041             18.000
+voP2     flt   00009041             18.000
+voPp     flt   0080ab43             343.000
+voSU     flt   00000000             0.000
+voSi     si32  00000000             
+voTL     flt   00000000             0.000
+voTP     flt   00000000             0.000
+voTi     si32  00000000             
+voTj     si32  00000000             
+voU0     flt   0000dc42             110.000
+voU1     flt   00009041             18.000
+voU2     flt   00009041             18.000
+voUT     flt   00000000             0.000
+voUi     si32  00000000             
+voUp     flt   0000dc42             110.000
+vof0     flt   17b7d138             0.000
+vofi     si32  07000000             
+vofl     si32  01000000             
+vofr     flt   17b7d138             0.000
+vop0     flt   00000000             0.000
+vopD     flt   00000000             0.000
+vopi     si32  00000000             
+vopo     si32  00000000             
+vou0     flt   00000000             0.000
+voui     si32  00000000             
+vout     flt   00000000             0.000
+w000     si32  00000000             
+w002     si32  00000000             
+w003     si32  00000000             
+w00a     si32  01000000             
+w00w     si32  01000000             
+w0p1     si32  01000000             
+w0u1     si32  01000000             
+wd00     si32  00000000             
+wd02     si32  00000000             
+wdpm     flt   00000000             0.000
+wiNn     flt   29d1c93d             0.099
+wipm     flt   00002041             10.000
+wpNn     flt   751b833f             1.024
+wppm     flt   00000040             2.000
+xDPE     flt   65775241             13.154
+xPPT     flt   0080ab43             343.000
+xUPT     flt   0000dc42             110.000
+xdps     flt   00000000             0.000
+yNFT     flt   0000c842             100.000
+yupa     flt   0000d242             105.000
+zDSA     ui16  0000                 0.000
+zDSB     ui32  00000000             0.000
+zDSC     hex_  0000000000000000     
+zDSD     hex_  0000                 
+zEAO     hex_  0501010000000000000000000000000000000000000000000000000000000000 
+zES0     hex_  00000000000000000000000000000000 
+zSAa     ui64  f4e42c0000000000     
+zSAc     ui32  1f150000             521469952.000
+zSAi     ui32  80020000             2147614720.000
+zSBa     ui64  0000000000000000     
+zSBc     ui32  00000000             0.000
+zSBi     si32  00000000             
+zSDa     si64  0000000000000000     
+zSDc     ui32  00000000             0.000
+zSEi     ui64  a9a5340100000000     
+zSEj     ui32  341a0000             874119168.000
+zSEm     ch8*  7869793469797335673800000000000000000000000000000000000000000000 
+zSEs     ui32  b41c0000             3021733888.000
+zSEw     ui64  9d8a610100000000     
+zSLa     si64  e044570400000000     
+zSLc     ui32  42150000             1108672512.000
+zSLi     si32  585e0000             
+zSPa     ui64  e044570400000000     
+zSPc     ui32  1f150000             521469952.000
+zSPe     ui32  22000000             570425344.000
+zSPi     ui32  585e0000             1482555392.000
+zSPm     ui32  4b2f0000             1261371392.000
+zSPn     ui32  ca070000             3389456384.000
+zSPs     si32  00000000             
+zSPt     ui32  00000000             0.000
+zSPu     si64  0000000000000000     
+
+=== Temperatursensoren (heuristisch gruppiert) ===
+
+-- CPU --
+TCMb   flt     44.46 °C
+Tp0C   flt     37.36 °C
+Tp00   flt     36.62 °C
+Tp0O   flt     35.52 °C
+Tp0p   flt     35.44 °C
+Tp0G   flt     35.27 °C
+Tp0X   flt     35.20 °C
+Tp0m   flt     35.11 °C
+Tp0g   flt     35.09 °C
+Tp08   flt     35.06 °C
+Tp0K   flt     34.95 °C
+Tp04   flt     34.70 °C
+TCDX   flt     34.52 °C
+Tp0u   flt     34.11 °C
+Tp0R   flt     34.08 °C
+Tp0a   flt     34.06 °C
+Tp0U   flt     33.95 °C
+Tp0j   flt     33.80 °C
+Tp0y   flt     33.80 °C
+Tp0d   flt     33.66 °C
+Tp1I   flt     32.64 °C
+Tp1U   flt     32.27 °C
+Tp1Q   flt     32.17 °C
+Tp1g   flt     31.83 °C
+Tp1E   flt     31.34 °C
+
+-- GPU --
+Tg3x   flt     31.58 °C
+Tg2r   flt     31.56 °C
+Tg3F   flt     31.56 °C
+Tg3l   flt     31.56 °C
+Tg2b   flt     31.55 °C
+Tg2j   flt     31.55 °C
+Tg2P   flt     31.53 °C
+Tg2T   flt     31.53 °C
+Tg2f   flt     31.53 °C
+Tg2n   flt     31.53 °C
+Tg3d   flt     31.53 °C
+Tg3h   flt     31.53 °C
+Tg3t   flt     31.53 °C
+Tg29   flt     31.52 °C
+Tg2D   flt     31.52 °C
+Tg2X   flt     31.52 °C
+Tg3B   flt     31.52 °C
+Tg3V   flt     31.52 °C
+Tg3R   flt     31.48 °C
+Tg3Z   flt     31.48 °C
+Tg5h   flt     31.47 °C
+Tg7L   flt     31.47 °C
+Tg1x   flt     31.45 °C
+Tg43   flt     31.45 °C
+Tg5O   flt     31.05 °C
+Tg5F   flt     31.03 °C
+Tg4S   flt     31.02 °C
+Tg4b   flt     31.02 °C
+Tg5C   flt     31.02 °C
+Tg5L   flt     31.00 °C
+Tg5R   flt     31.00 °C
+Tg5Y   flt     31.00 °C
+Tg4D   flt     30.98 °C
+Tg4G   flt     30.98 °C
+Tg4P   flt     30.98 °C
+Tg4V   flt     30.98 °C
+Tg4Y   flt     30.98 °C
+Tg4e   flt     30.98 °C
+Tg50   flt     30.98 °C
+Tg53   flt     30.98 °C
+Tg5b   flt     30.98 °C
+Tg4h   flt     30.97 °C
+Tg4k   flt     30.97 °C
+Tg5I   flt     30.95 °C
+Tg0j   flt     30.94 °C
+Tg1I   flt     30.94 °C
+Tg1o   flt     30.94 °C
+Tg0R   flt     30.92 °C
+Tg0U   flt     30.92 °C
+Tg1M   flt     30.92 °C
+Tg08   flt     30.91 °C
+Tg0C   flt     30.91 °C
+Tg0O   flt     30.91 °C
+Tg0X   flt     30.91 °C
+Tg0a   flt     30.91 °C
+Tg1U   flt     30.91 °C
+Tg1Y   flt     30.91 °C
+Tg6q   flt     30.91 °C
+Tg0d   flt     30.89 °C
+Tg0g   flt     30.89 °C
+Tg12   flt     30.89 °C
+Tg16   flt     30.89 °C
+Tg1c   flt     30.89 °C
+Tg1k   flt     30.89 °C
+Tg6t   flt     30.89 °C
+Tg70   flt     30.89 °C
+Tg1Q   flt     30.88 °C
+Tg66   flt     30.88 °C
+Tg6e   flt     30.88 °C
+Tg6h   flt     30.88 °C
+Tg73   flt     30.88 °C
+Tg6w   flt     30.86 °C
+Tg76   flt     30.86 °C
+Tg5q   flt     30.84 °C
+Tg5t   flt     30.84 °C
+Tg63   flt     30.84 °C
+Tg6C   flt     30.84 °C
+Tg6I   flt     30.84 °C
+Tg6L   flt     30.84 °C
+Tg7C   flt     30.84 °C
+Tg7F   flt     30.84 °C
+Tg69   flt     30.83 °C
+Tg6F   flt     30.83 °C
+Tg6O   flt     30.83 °C
+TRD6   flt     30.21 °C
+TRDX   flt     30.21 °C
+TRDc   flt     29.97 °C
+TRDd   flt     29.97 °C
+TRD7   flt     29.89 °C
+TRD4   flt     29.81 °C
+TRD5   flt     29.81 °C
+TRD1   flt     29.49 °C
+TRDb   flt     29.49 °C
+TRD3   flt     29.33 °C
+TRDa   flt     29.33 °C
+TRDe   flt     29.33 °C
+TRD8   flt     29.25 °C
+TRDf   flt     28.93 °C
+TRD2   flt     28.85 °C
+TRD9   flt     28.61 °C
+TRD0   flt     28.53 °C
+
+-- Ambient/Gehäuse --
+Ta00   flt     32.69 °C
+Ta04   flt     32.69 °C
+Ta08   flt     32.69 °C
+Ta0K   flt     32.69 °C
+Ta0O   flt     32.69 °C
+Ta0R   flt     32.69 °C
+TB1p   flt     30.48 °C
+TB0p   flt     28.30 °C
+TaRR   flt     28.08 °C
+TBBp   flt     27.96 °C
+TaRL   flt     26.74 °C
+TaFR   flt     26.57 °C
+TaFL   flt     25.85 °C
+
+-- Sonstige --
+Tf06   flt     70.59 °C
+Tf16   flt     65.77 °C
+TVD0   flt     44.46 °C
+TVDC   flt     44.46 °C
+TVDP   flt     44.46 °C
+TVDG   flt     42.97 °C
+TVDA   flt     42.69 °C
+TVDM   flt     42.06 °C
+Tm0y   flt     34.06 °C
+Tm2T   flt     34.06 °C
+Tf19   flt     33.78 °C
+Tf14   flt     33.77 °C
+Tf1A   flt     32.79 °C
+Ts0G   flt     32.67 °C
+TfCC   flt     32.65 °C
+Tf0B   flt     32.64 °C
+Tf18   flt     32.59 °C
+Tf04   flt     32.25 °C
+Tf1B   flt     32.16 °C
+Tm0O   flt     31.89 °C
+Tm0R   flt     31.77 °C
+Ts0K   flt     31.56 °C
+Ts0U   flt     31.55 °C
+TSVR   flt     31.54 °C
+Tm2L   flt     31.50 °C
+Tm1U   flt     31.48 °C
+Tm1g   flt     31.48 °C
+Tm2P   flt     31.48 °C
+Tm1Q   flt     31.47 °C
+Tm1Y   flt     31.47 °C
+Tm1c   flt     31.45 °C
+Tm1k   flt     31.45 °C
+Tm21   flt     31.45 °C
+Tm1M   flt     31.44 °C
+Tm1x   flt     31.44 °C
+Tm2D   flt     31.42 °C
+Tm25   flt     31.41 °C
+Tm29   flt     31.41 °C
+Tm2H   flt     31.41 °C
+Tm2n   flt     31.41 °C
+Tm1o   flt     31.39 °C
+Tm2j   flt     31.39 °C
+Tm1s   flt     31.38 °C
+Ts0R   flt     31.36 °C
+Tf09   flt     31.24 °C
+Tm0a   flt     31.23 °C
+Tm0p   flt     31.22 °C
+Tm0G   flt     31.17 °C
+Tm00   flt     31.16 °C
+Tf0A   flt     31.13 °C
+Tm0U   flt     31.12 °C
+Tm0g   flt     31.11 °C
+Tm04   flt     31.08 °C
+Tm0X   flt     30.98 °C
+Tf08   flt     30.96 °C
+Ts0O   flt     30.92 °C
+Ts0a   flt     30.92 °C
+Ts0X   flt     30.88 °C
+Ts0g   flt     30.84 °C
+Ts0C   flt     30.83 °C
+Ts0d   flt     30.83 °C
+Tm0C   flt     30.75 °C
+Tm0j   flt     30.61 °C
+Tm0K   flt     30.58 °C
+TfCB   flt     30.49 °C
+TUD5   flt     30.45 °C
+TUDX   flt     30.45 °C
+Ts04   flt     30.44 °C
+Tm1E   flt     30.42 °C
+Tm0u   flt     30.38 °C
+TPD5   flt     30.37 °C
+TPDX   flt     30.37 °C
+Ts08   flt     30.34 °C
+Tm0d   flt     30.31 °C
+TS0p   flt     30.21 °C
+Tm08   flt     30.20 °C
+TPD7   flt     30.13 °C
+TUD7   flt     30.13 °C
+TW0p   flt     29.96 °C
+Tm1I   flt     29.89 °C
+TM1p   flt     29.82 °C
+TPD6   flt     29.73 °C
+TPDd   flt     29.73 °C
+TPD4   flt     29.65 °C
+TUD0   flt     29.65 °C
+TUD4   flt     29.65 °C
+TUD6   flt     29.65 °C
+TUDd   flt     29.65 °C
+TPDf   flt     29.57 °C
+TSDD   flt     29.57 °C
+TPDe   flt     29.49 °C
+TSSp   flt     29.46 °C
+TfC5   flt     29.44 °C
+TPDc   flt     29.41 °C
+TUDb   flt     29.41 °C
+TUDc   flt     29.41 °C
+Tm0m   flt     29.39 °C
+TMVR   flt     29.30 °C
+TfC9   flt     29.29 °C
+Ts00   flt     29.27 °C
+TPDa   flt     29.25 °C
+TUDf   flt     29.25 °C
+TfC8   flt     29.25 °C
+TI0p   flt     29.20 °C
+TfC3   flt     29.20 °C
+TfCA   flt     29.18 °C
+TPDb   flt     29.17 °C
+TUDa   flt     29.17 °C
+TUDe   flt     29.17 °C
+TfC1   flt     29.16 °C
+TPSp   flt     29.13 °C
+TR5p   flt     29.09 °C
+TfC6   flt     29.05 °C
+TPD1   flt     29.01 °C
+TPD0   flt     28.93 °C
+TPD3   flt     28.93 °C
+TPD8   flt     28.93 °C
+TUD8   flt     28.85 °C
+TUD3   flt     28.77 °C
+TPMp   flt     28.69 °C
+TPD9   flt     28.61 °C
+TUD9   flt     28.61 °C
+TUD2   flt     28.53 °C
+TfC7   flt     28.47 °C
+TPD2   flt     28.45 °C
+TUD1   flt     28.45 °C
+TSVL   flt     28.25 °C
+TUCp   flt     26.59 °C
+TN00   flt     26.50 °C
+TN01   flt     26.50 °C
+TN02   flt     26.25 °C
+TN03   flt     26.25 °C
+TPSD   flt     25.77 °C
+TH0b   flt     25.71 °C
+TH0x   flt     25.71 °C
+TH0a   flt     25.68 °C
+TVS1   flt     24.99 °C
+TVNS   flt     24.50 °C
+VD0R   flt     12.11 °C
+V5SC   flt      5.21 °C
+TNLc   flt      4.00 °C
+VMVC   flt      3.82 °C
+VSP2   flt      3.81 °C
+VMVR   flt      3.81 °C
+VP1l   flt      3.31 °C
+VS7l   flt      3.30 °C
+VP7l   flt      3.30 °C
+TNVn   flt      3.00 °C
+VRTC   flt      2.93 °C
+VReb   flt      1.81 °C
+VR3b   flt      1.80 °C
+VP5l   flt      1.80 °C
+VP2l   flt      1.80 °C
+VS3b   flt      1.80 °C
+VSbl   flt      1.80 °C
+VSVC   flt      1.79 °C
+VPdb   flt      1.25 °C
+VP9b   flt      1.23 °C
+VPal   flt      1.20 °C
+VSdl   flt      1.20 °C
+VPkl   flt      1.20 °C
+VR7b   flt      1.13 °C
+VSdb   flt      1.13 °C
+VP2b   flt      1.05 °C
+VR0b   flt      1.05 °C
+VR4b   flt      1.01 °C
+VS4b   flt      1.01 °C
+TVMD   flt      1.00 °C
+VP0b   flt      0.95 °C
+VPbb   flt      0.87 °C
+VR9b   flt      0.86 °C
+VPeb   flt      0.81 °C
+VP8l   flt      0.80 °C
+VS0b   flt      0.79 °C
+VR2b   flt      0.79 °C
+VS7b   flt      0.79 °C
+VP1b   flt      0.78 °C
+VR8l   flt      0.73 °C
+VSbb   flt      0.70 °C
+VP4b   flt      0.64 °C
+VS2b   flt      0.58 °C
+VS9b   flt      0.56 °C
+VRbb   flt      0.56 °C
+VR1b   flt      0.00 °C
+VS1b   flt      0.00 °C
+TH1a   flt      0.00 °C
+TH1b   flt      0.00 °C
+TN04   flt      0.00 °C
+TN05   flt      0.00 °C
+TN06   flt      0.00 °C
+TN07   flt      0.00 °C
+Tz11   flt      0.00 °C
+Tz12   flt      0.00 °C
+Tz13   flt      0.00 °C
+Tz14   flt      0.00 °C
+Tz15   flt      0.00 °C
+Tz16   flt      0.00 °C
+Tz17   flt      0.00 °C
+Tz18   flt      0.00 °C
+Tz1j   flt      0.00 °C
+
+=== Lüfter (F0..F3) ===
+F0: 999 rpm  min=1000  max=3625  target=1000  mode=0  id=Lüfter 1
+F1: 999 rpm  min=1000  max=3625  target=1000  mode=0  id=Lüfter 2

@@ -1,0 +1,933 @@
+SMC-Keys gesamt: 800
+
+=== Lüfter-/Steuer-Keys ===
+#KEY   ui32  4B   800.00
+F0AB   sp78  2B   -27.00
+F0AH   spf0  2B   -
+F0AL   spf0  2B   -
+F0AP   spf0  2B   -
+F0Ac   flt   4B   2027.95
+F0Dc   flt   4B   0.48
+F0Fb   ui8   1B   1.00
+F0Fc   ui16  2B   9.00
+F0Md   ui8   1B   0.00
+F0Mn   flt   4B   1100.00
+F0Mx   flt   4B   2846.00
+F0Sf   ui16  2B   0.00
+F0St   ui8   1B   5.00
+F0Tg   flt   4B   2040.00
+F1AH   spf0  2B   -
+F1Ac   flt   4B   2053.04
+F1Dc   flt   4B   0.49
+F1Fb   ui8   1B   1.00
+F1Fc   ui16  2B   9.00
+F1Md   ui8   1B   0.00
+F1Mn   flt   4B   1100.00
+F1Mx   flt   4B   2846.00
+F1Sf   ui16  2B   0.00
+F1St   ui8   1B   5.00
+F1Tg   flt   4B   2040.00
+FAC0   ui8   1B   0.00
+FAC1   ui8   1B   0.00
+FAC2   ui8   1B   0.00
+FAC3   ui8   1B   0.00
+FBAD   hex_  4B   -
+FNum   ui8   1B   2.00
+FOff   ui8   1B   0.00
+FRmp   ui16  2B   0.00
+
+=== ALLE KEYS ===
+#KEY     ui32  00000320             800.000
+AC-C     flag  00                   
+AC-F     ui8   00                   0.000
+AC-I     ui16  0018                 24.000
+AC-J     ui16  0000                 0.000
+AC-M     hex_  0202                 
+AC-N     ui8   04                   4.000
+AC-P     ui8   00                   0.000
+AC-Q     ui8   00                   0.000
+AC-R     ui8   00                   0.000
+AC-S     flag  01                   
+AC-T     ui8   00                   0.000
+AC-U     flag  00                   
+ACCF     ui8   1e                   30.000
+ACKL     hex_  00                   
+ACKS     hex_  0000                 
+ACSt     hex_  07030000             
+ADBA     ui32  00000000             0.000
+ADC0     ui16  0281                 641.000
+ADC1     ui16  008e                 142.000
+ADC2     ui16  0163                 355.000
+ADC3     ui16  0072                 114.000
+ADC4     ui16  06db                 1755.000
+ADC5     ui16  0df8                 3576.000
+ADC6     ui16  016e                 366.000
+ADC7     ui16  0e19                 3609.000
+ADC8     ui16  084e                 2126.000
+ADC9     ui16  06d1                 1745.000
+ADCE     ui32  00000000             0.000
+ADCa     ui16  0b19                 2841.000
+ADCb     ui16  02e7                 743.000
+ADCc     ui16  0417                 1047.000
+ADCd     ui16  004c                 76.000
+ADCe     ui16  004f                 79.000
+ADCf     ui16  0009                 9.000
+ADCg     ui16  01fc                 508.000
+ADCh     ui16  000b                 11.000
+ADCi     ui16  000e                 14.000
+ADCj     ui16  000d                 13.000
+ADCk     ui16  000e                 14.000
+ADCl     ui16  00b2                 178.000
+ADCm     ui16  00b0                 176.000
+ADCn     ui16  0032                 50.000
+ANWP     ui8   04                   4.000
+AUDC     ui16  073c                 1852.000
+AUDS     ui8   ff                   255.000
+AUPO     ui8   00                   0.000
+BCFP     ui32  00000000             0.000
+BEMB     flag  00                   
+BNum     ui8   00                   0.000
+BSIn     hex_  e2                   
+CBIV     hex_  0000000000000000000000000000000000000000 
+CBPL     hex_  0000000000000000     
+CBSC     ui32  00000000             0.000
+CBSV     ui32  00000000             0.000
+CBTC     ui8   00                   0.000
+CLKA     ui32  ffffffff             4294967295.000
+CLKL     hex_  1556ab966707         
+CLKM     hex_  050032976707         
+CLKO     hex_  4146fab9fd2d         
+CLKR     ui32  00800000             8388608.000
+CLSD     ui16  0000                 0.000
+CLWK     ui16  ffff                 65535.000
+CPL!     hex_  00                   
+CPL1     flt   00000000             0.000
+CPL2     flt   00000000             0.000
+CPPL     spa5  0f00                 15.000
+CPTX     sp78  6400                 100.000
+D1CA     ui16  0000                 0.000
+D1CD     ui16  0000                 0.000
+D1Cb     ui8   00                   0.000
+D1Cc     ui16  0000                 0.000
+D1Ci     ui16  0000                 0.000
+D1Cm     ui16  0000                 0.000
+D1Cn     ui16  0000                 0.000
+D1Cw     ui16  0000                 0.000
+D1DA     hex_  004e                 
+D1DI     ui8   01                   1.000
+D1DP     hex_  0000000000000000     
+D1DR     flag  01                   
+D1EC     ui8   00                   0.000
+D1FV     hex_  00160200             
+D1JA     ui32  4c1d0000             1276968960.000
+D1JB     ui32  4c1d0000             1276968960.000
+D1JD     {jst  00000000000000004c1d4c1d000000004c1d000000 
+D1JE     ui32  00000000             0.000
+D1JF     ui32  00000000             0.000
+D1JG     ui32  00000000             0.000
+D1JI     flt   00000000             0.000
+D1JM     ui16  983a                 38970.000
+D1JN     ui16  4c1d                 19485.000
+D1JP     ui8   00                   0.000
+D1JQ     hex_  000000000000000000000000000000000000 
+D1JR     si32  4c1d0000             
+D1JS     si32  4c1d0000             
+D1JV     flt   00000000             0.000
+D1LI     ui8   04                   4.000
+D1PR     ui8   00                   0.000
+D1PS     ui8   00                   0.000
+D1Ps     ui8   ff                   255.000
+D1St     hex_  0000                 
+D1WS     flag  01                   
+D1lg     hex_  1a03bba00000000000000000000000000000000000000000000000000000 
+D1li     ui8   05                   5.000
+D2CA     ui16  0000                 0.000
+D2CD     ui16  0000                 0.000
+D2Cb     ui8   00                   0.000
+D2Cc     ui16  0000                 0.000
+D2Ci     ui16  0000                 0.000
+D2Cm     ui16  0000                 0.000
+D2Cn     ui16  0000                 0.000
+D2Cw     ui16  0000                 0.000
+D2DA     hex_  0040                 
+D2DI     ui8   01                   1.000
+D2DP     hex_  0000000000000000     
+D2DR     flag  01                   
+D2EC     ui8   00                   0.000
+D2FV     hex_  00160200             
+D2JA     ui32  4c1d0000             1276968960.000
+D2JB     ui32  4c1d0000             1276968960.000
+D2JD     {jst  00000000000000004c1d4c1d000000004c1d000000 
+D2JE     ui32  00000000             0.000
+D2JF     ui32  00000000             0.000
+D2JG     ui32  00000000             0.000
+D2JI     flt   00000000             0.000
+D2JM     ui16  983a                 38970.000
+D2JN     ui16  4c1d                 19485.000
+D2JP     ui8   00                   0.000
+D2JQ     hex_  000000000000000000000000000000000000 
+D2JR     si32  4c1d0000             
+D2JS     si32  4c1d0000             
+D2JV     flt   00000000             0.000
+D2LI     ui8   04                   4.000
+D2PR     ui8   00                   0.000
+D2PS     ui8   00                   0.000
+D2Ps     ui8   ff                   255.000
+D2St     hex_  0000                 
+D2WS     flag  01                   
+D2lg     hex_  1a03bba00000000000000000000000000000000000000000000000000000 
+D2li     ui8   05                   5.000
+D3CA     ui16  0000                 0.000
+D3CD     ui16  0000                 0.000
+D3Cb     ui8   00                   0.000
+D3Cc     ui16  0000                 0.000
+D3Ci     ui16  0000                 0.000
+D3Cm     ui16  0000                 0.000
+D3Cn     ui16  0000                 0.000
+D3Cw     ui16  0000                 0.000
+D3DA     hex_  007e                 
+D3DI     ui8   01                   1.000
+D3DP     hex_  0000000000000000     
+D3DR     flag  01                   
+D3EC     ui8   00                   0.000
+D3FV     hex_  00160200             
+D3JA     ui32  4c1d0000             1276968960.000
+D3JB     ui32  4c1d0000             1276968960.000
+D3JD     {jst  00000000000000004c1d4c1d000000004c1d000000 
+D3JE     ui32  00000000             0.000
+D3JF     ui32  00000000             0.000
+D3JG     ui32  00000000             0.000
+D3JI     flt   00000000             0.000
+D3JM     ui16  983a                 38970.000
+D3JN     ui16  4c1d                 19485.000
+D3JP     ui8   00                   0.000
+D3JQ     hex_  000000000000000000000000000000000000 
+D3JR     si32  4c1d0000             
+D3JS     si32  4c1d0000             
+D3JV     flt   00000000             0.000
+D3LI     ui8   04                   4.000
+D3PR     ui8   00                   0.000
+D3PS     ui8   00                   0.000
+D3Ps     ui8   ff                   255.000
+D3St     hex_  0000                 
+D3WS     flag  01                   
+D3lg     hex_  1a03bba00000000000000000000000000000000000000000000000000000 
+D3li     ui8   05                   5.000
+D4CA     ui16  0300                 768.000
+D4CD     ui16  0200                 512.000
+D4Cb     ui8   00                   0.000
+D4Cc     ui16  0000                 0.000
+D4Ci     ui16  0000                 0.000
+D4Cm     ui16  0000                 0.000
+D4Cn     ui16  0000                 0.000
+D4Cw     ui16  0000                 0.000
+D4DA     hex_  0070                 
+D4DI     ui8   01                   1.000
+D4DP     hex_  0000000000000000     
+D4DR     flag  01                   
+D4EC     ui8   00                   0.000
+D4FV     hex_  00160200             
+D4JA     ui32  4c1d0000             1276968960.000
+D4JB     ui32  4c1d0000             1276968960.000
+D4JD     {jst  4c1d00004c1d00004c1d4c1d000000004c1d000000 
+D4JE     ui32  00000000             0.000
+D4JF     ui32  00000000             0.000
+D4JG     ui32  00000000             0.000
+D4JI     flt   00000000             0.000
+D4JM     ui16  983a                 38970.000
+D4JN     ui16  4c1d                 19485.000
+D4JP     ui8   00                   0.000
+D4JQ     hex_  000000000000000000000000000000000000 
+D4JR     si32  4c1d0000             
+D4JS     si32  4c1d0000             
+D4JV     flt   00000000             0.000
+D4LI     ui8   28                   40.000
+D4PR     ui8   00                   0.000
+D4PS     ui8   00                   0.000
+D4Ps     ui8   ff                   255.000
+D4St     hex_  0100                 
+D4WS     flag  01                   
+D4lg     hex_  1a03bba00000000000000000000000000000000000000000000000000000 
+D4li     ui8   05                   5.000
+DBTE     ui8   01                   1.000
+DICT     flag  00                   
+DPBS     ui32  c8af0000             3366912000.000
+DPBW     ui32  c8af0000             3366912000.000
+DSAS     ui8   00                   0.000
+DULT     ui8   46                   70.000
+DUST     ui8   00                   0.000
+DUTC     flag  01                   
+DUTT     ui8   2d                   45.000
+EFBI     hex_  00000000             
+EFBM     ui8   00                   0.000
+EFBP     ui8   00                   0.000
+EFMU     hex_  484dd47a291d45d1bbb2866c128201b3 
+EFMV     hex_  010100001700000010000000db3a000000000000000000000000000000000000 
+EFRO     hex_  9044d9c59bd24392b4d75f9880fab9d8 
+EFSR     ui8   00                   0.000
+ERCE     flag  00                   
+ERCR     ui16  0001                 1.000
+ERCS     flag  00                   
+EVPF     hex_  00000000000000000000000000 
+F0AB     sp78  e500                 -27.000
+F0AH     spf0  0bb8                 
+F0AL     spf0  09c4                 
+F0AP     spf0  003f                 
+F0Ac     flt   8b99fe44             2036.798
+F0Dc     flt   a4b4f43e             0.478
+F0Fb     ui8   01                   1.000
+F0Fc     ui16  0009                 9.000
+F0Md     ui8   00                   0.000
+F0Mn     flt   00808944             1100.000
+F0Mx     flt   00e03145             2846.000
+F0Sf     ui16  0000                 0.000
+F0St     ui8   05                   5.000
+F0Tg     flt   0000ff44             2040.000
+F1AH     spf0  0bb8                 
+F1Ac     flt   a27efe44             2035.957
+F1Dc     flt   5b01f73e             0.482
+F1Fb     ui8   01                   1.000
+F1Fc     ui16  0009                 9.000
+F1Md     ui8   00                   0.000
+F1Mn     flt   00808944             1100.000
+F1Mx     flt   00e03145             2846.000
+F1Sf     ui16  0000                 0.000
+F1St     ui8   05                   5.000
+F1Tg     flt   0000ff44             2040.000
+FAC0     ui8   00                   0.000
+FAC1     ui8   00                   0.000
+FAC2     ui8   00                   0.000
+FAC3     ui8   00                   0.000
+FBAD     hex_  00000000             
+FNum     ui8   02                   2.000
+FOff     ui8   00                   0.000
+FRmp     ui16  0000                 0.000
+GCID     hex_  0000000068671002     
+GPUB     ui16  1000                 4096.000
+GPUC     ui32  00ffe13f             16769343.000
+GPUD     ui8   00                   0.000
+GPUS     hex_  7001020400010000000000000094000205053fe1ff3fe1ff0000030000000000 
+GS0C     ui16  0000                 0.000
+GT0C     ui16  0000                 0.000
+GT0R     ui8   00                   0.000
+GTH!     hex_  00                   
+GTHR     ui8   00                   0.000
+HBKP     ch8*  0000000000000000000000000000000000000000000000000000000000000000 
+HBKT     ui32  00054600             345600.000
+HBKU     ch8*  0000000000000000000000000000000000000000000000000000000000000000 
+HC0N     ui8   15                   21.000
+HC0T     ui8   0a                   10.000
+HE0N     ui8   10                   16.000
+HE0T     ui8   00                   0.000
+HE1N     ui8   00                   0.000
+HE1T     ui8   00                   0.000
+HI0N     ui8   14                   20.000
+HI0T     ui8   00                   0.000
+HI1N     ui8   00                   0.000
+HI1T     ui8   00                   0.000
+HNVD     ui16  0000                 0.000
+IB2R     flt   72241f3f             0.622
+IC0C     flt   a5af0942             34.422
+IC0I     flt   809e7840             3.885
+IC0S     flt   9da76a40             3.666
+IC2R     flt   d7fca240             5.093
+ID2A     sp78  0fbc                 15.734
+ID2E     sp78  0fb0                 15.688
+ID2F     flt   b22f8241             16.273
+ID2I     sp78  084c                 8.297
+ID2J     sp78  000a                 0.039
+ID2L     si16  0400                 1024.000
+ID2M     flt   3bc9fc40             7.900
+ID2R     flt   d4f61341             9.248
+ID2S     si16  99cc                 -26164.000
+ID2T     sp78  0007                 0.027
+IG0C     flt   ae7a7841             15.530
+IG0M     flt   6e1f543f             0.829
+IG2A     flt   599ecc3e             0.400
+IG2R     flt   5092ac3f             1.348
+IH02     flt   05d4903b             0.004
+IH0R     flt   7d63b53b             0.006
+IH12     flt   e27da33b             0.005
+IH1R     flt   2f83e43b             0.007
+IM0P     flt   c11fa63e             0.324
+IM2P     flt   b2f7a73e             0.328
+IR01     flt   cde70940             2.155
+IR23     flt   92540940             2.146
+IUAR     flt   34d9933e             0.289
+IUCR     flt   393d0c3d             0.034
+KDD0     hex_  1b8e032f725b5ba934a79345ac203a98cca26c4110639ae495ed454400008b24 
+KDD1     hex_  0000000000004f3d000000000000050800000000000000000000000000000000 
+KDTP     ui8   01                   1.000
+KINC     ui16  0007                 7.000
+KINV     ch8*  4d534457             
+KINX     hex_  4d534457             
+LCAD     ui8   03                   3.000
+LCAE     ui8   00                   0.000
+LCFS     ui16  0000                 0.000
+LCRC     ui16  0000                 0.000
+LCSA     ui8   00                   0.000
+LDKN     ui8   03                   3.000
+LDWA     hex_  0000000000000100     
+LDWE     hex_  00000000             
+LDWL     hex_  0000000000000000     
+LGPA     ui64  0000e51e08000000     
+LGPB     flag  00                   
+LGPE     flag  00                   
+LGPI     ui32  00000000             0.000
+LGPP     flag  00                   
+LGSA     ui64  ffffffffffffffff     
+LGSC     ui8   00                   0.000
+MBSS     ui16  0000                 0.000
+MDSZ     ui8   01                   1.000
+MEPS     hex_  000707               
+MFIC     hex_  00000000             
+MFIX     flag  01                   
+MM12     flag  01                   
+MPBT     flag  01                   
+MPBd     flag  01                   
+MPET     flag  01                   
+MPSD     flag  00                   
+MPTB     flag  01                   
+MPWF     flag  01                   
+MSAL     hex_  4b                   
+MSAP     ui8   03                   3.000
+MSAc     fp88  0000                 
+MSAf     fp6a  0000                 
+MSAg     fp88  0000                 
+MSAi     fp88  0000                 
+MSFE     ui8   00                   0.000
+MSFL     ch8*  00000000             
+MSFM     ui8   00                   0.000
+MSFN     ui8   00                   0.000
+MSFV     flt   00000000             0.000
+MSGA     fp6a  0000                 
+MSLC     ui8   00                   0.000
+MSLD     ui8   00                   0.000
+MSLG     ui8   00                   0.000
+MSLP     ui8   00                   0.000
+MSLS     ui8   05                   5.000
+MSPA     fp6a  0000                 
+MSPC     ui8   15                   21.000
+MSPP     ui8   00                   0.000
+MSPR     ui8   00                   0.000
+MSPS     hex_  0004                 
+MSPT     hex_  1f14000910           
+MSPU     hex_  000406070707         
+MSPV     ui8   00                   0.000
+MSQC     hex_  0120                 
+MSQL     ui8   00                   0.000
+MSQM     ui8   05                   5.000
+MSQW     ui16  0000                 0.000
+MSSB     si8   00                   0.000
+MSSC     flag  00                   
+MSSD     si8   00                   0.000
+MSSP     si8   00                   0.000
+MSSS     ui8   00                   0.000
+MSSW     flag  00                   
+MST3     ui32  00000000             0.000
+MST6     ui64  0000000000000000     
+MSTC     ui16  0000                 0.000
+MSTD     ui16  0000                 0.000
+MSTL     ui32  004fcd1e             5229854.000
+MSTS     ui8   0a                   10.000
+MSWr     ui8   70                   112.000
+MSX0     ui16  3065                 12389.000
+MSX2     ui8   0c                   12.000
+MSX9     ui8   30                   48.000
+MSXA     ch8*  50535452             
+MSXC     ui32  00000000             0.000
+MSXD     ch8*  00000000000000000000000000000000 
+MSXH     ch8*  00000000000000000000000000000000 
+MSXK     ch8*  2122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f40 
+MSXL     ch8*  0000fde80000fde80000fde80000fde8 
+MSXN     ui8   66                   102.000
+MSXP     ui32  00000000             0.000
+MSXS     ch8*  01020304             
+MSXT     ui32  ffffffff             4294967295.000
+MSXU     hex_  0000                 
+MSXZ     flt   00000000             0.000
+MSXb     ui8   00                   0.000
+MSXc     ui32  00000000             0.000
+MSXd     ch8*  00000000000000000000000000000000 
+MSXh     ch8*  00000000000000000000000000000000 
+MSXk     ch8*  2122232425262728292a2b2c2d2e2f303132333435363738dcdddedfe0e1e2e3 
+MSXl     ch8*  286b6e4e286b6e4e286b6e4e286b6e4e 
+MSXm     ui16  0008                 8.000
+MSXn     ui8   4c                   76.000
+MSXs     ui32  01020304             16909060.000
+MSXt     ch8*  00000000000000000000000000000000 
+MSbc     ui8   00                   0.000
+MSdc     ui8   00                   0.000
+MSec     ui8   02                   2.000
+MSlc     ui8   00                   0.000
+MSt0     flt   00000000             0.000
+MSt1     flt   00000000             0.000
+MSt2     flt   00000000             0.000
+MSt3     flt   00000000             0.000
+MSt4     flt   00000000             0.000
+MSt5     flt   00000000             0.000
+MStc     ui8   00                   0.000
+MSxb     hex_  0365                 
+MSxd     hex_  03650000ed13000000804e0013aa204100000000000000000000000000000000 
+MSxs     hex_  03650000ed13000000804e0013aa2041 
+N0Tr     ui8   00                   0.000
+N0Tw     ui8   00                   0.000
+NATJ     ui8   00                   0.000
+NATi     ui16  0000                 0.000
+NESN     hex_  00000000             
+NOPB     ui8   00                   0.000
+NTAP     flag  01                   
+NTOK     ui8   00                   0.000
+Ns0T     ui8   01                   1.000
+Ns1T     ui8   01                   1.000
+NsNL     ui8   02                   2.000
+OSSS     hex_  0000000000000000000000000000000000000000000000000000000000000000 
+OSWD     ui16  0036                 54.000
+PB2R     flt   3e6def40             7.482
+PC0C     flt   a7304442             49.048
+PC0I     flt   809e7840             3.885
+PC0M     flt   cbdd263f             0.652
+PC0S     flt   f7744740             3.117
+PC20     flt   f8237542             61.285
+PC2M     flt   9d2b263f             0.649
+PCPR     flt   f0656542             57.350
+PCPT     spa5  06fe                 6.992
+PCTR     flt   3c198642             67.049
+PD2M     flt   cf1dbe42             95.058
+PD2R     flt   68bcde42             111.368
+PDTR     flt   68bcde42             111.368
+PG0C     flt   666a6241             14.151
+PG0M     flt   7c8b7e3f             0.994
+PG2A     flt   94e59940             4.809
+PG2R     flt   687a8241             16.310
+PGPR     flt   0af98241             16.372
+PGTR     flt   cef3a841             21.119
+PH02     flt   dae3593d             0.053
+PH0R     flt   5ca5953c             0.018
+PH12     flt   46f8753d             0.060
+PH1R     flt   a885bc3c             0.023
+PM0P     flt   3778553f             0.834
+PM0R     flt   964cfa3f             1.955
+PM0f     sp4b  00fd                 0.988
+PM2P     flt   49d6573f             0.843
+PM2R     flt   5441f93f             1.947
+PMLP     flt   00a7d63f             1.677
+PMLR     flt   04c77940             3.903
+PMLT     flt   4c8db240             5.580
+PSTR     flt   68bcde42             111.368
+PUAR     flt   a7cfb83f             1.444
+PUCR     flt   c74c2f3e             0.171
+PZ0E     flt   0000c843             400.000
+PZ0F     flt   6c15a842             84.042
+PZ0G     flt   2a56b042             88.168
+PZ0T     flt   00000000             0.000
+PZ1E     flt   00003443             180.000
+PZ1F     flt   1f2c7c42             63.043
+PZ1G     flt   3c198642             67.049
+PZ1T     flt   00000000             0.000
+PZ2E     flt   00000000             0.000
+PZ2F     flt   bef4a741             20.995
+PZ2G     flt   cef3a841             21.119
+PZ2T     flt   00000000             0.000
+PZ3E     flt   00008743             270.000
+PZ3F     flt   5cf2a741             20.993
+PZ3G     flt   cef3a841             21.119
+PZ3T     flt   00000000             0.000
+PZ4E     flt   0000f543             490.000
+PZ4F     flt   4050c642             99.157
+PZ4G     flt   8905dd42             110.511
+PZ4T     flt   00000000             0.000
+PZ5E     flt   00002044             640.000
+PZ5F     flt   73083e43             190.033
+PZ5G     flt   3a774243             194.466
+PZ5T     flt   00000000             0.000
+PfCP     spa5  0615                 6.082
+PfCT     spa5  0732                 7.195
+PfGT     spa5  0293                 2.574
+PfH1     spa5  0000                 0.000
+PfM0     spa5  00a2                 0.633
+PfST     spa5  0caa                 12.664
+QCEC     si8   00                   0.000
+QCFE     flt   00000000             0.000
+QCHA     flt   0000c03d             0.094
+QCHE     flt   00000000             0.000
+QCHa     si8   14                   20.000
+QCLA     flt   0000803f             1.000
+QCLE     flt   8e112c3f             0.672
+QCLV     ui8   58                   88.000
+QCLa     si8   18                   24.000
+QCLv     flt   d3d3b43e             0.353
+QCPE     flt   00000000             0.000
+QECI     ui8   00                   0.000
+QECS     ui8   00                   0.000
+QENA     flag  01                   
+QENN     flag  01                   
+QERI     hex_  00000000             
+QERR     hex_  00000000             
+QERS     hex_  00000000             
+QFL!     hex_  00                   
+QGEC     si8   00                   0.000
+QGFE     flt   00000000             0.000
+QGHA     flt   0000c03d             0.094
+QGHE     flt   00000000             0.000
+QGHa     si8   14                   20.000
+QGLA     flt   0000803f             1.000
+QGLE     flt   8e112c3f             0.672
+QGLV     ui8   58                   88.000
+QGLa     si8   18                   24.000
+QGLv     flt   d3d3b43e             0.353
+QGPE     flt   00000000             0.000
+QIEC     si8   00                   0.000
+QIFE     flt   00000000             0.000
+QIHA     flt   00000000             0.000
+QIHE     flt   00000000             0.000
+QIHa     si8   ff                   -1.000
+QILA     flt   00000000             0.000
+QILE     flt   8e112c3f             0.672
+QILV     ui8   22                   34.000
+QILa     si8   ff                   -1.000
+QILv     flt   a5a7093e             0.134
+QIPE     flt   00000000             0.000
+QVER     ui8   01                   1.000
+RBID     ui32  0000000a             10.000
+RBRV     ui32  00000009             9.000
+RCID     ui32  00008012             32786.000
+RCRV     ui32  00000010             16.000
+RECI     ui64  000515963e8a0026     
+RESV     ch8*  00000000000000000000000000000000 
+RGEN     ui8   03                   3.000
+RMAC     hex_  d0817ad86dbc         
+RMSN     hex_  43303238343537303032594a3830344136 
+RPlt     ch8*  6a31333700000000     
+RSSN     hex_  43303258513139484858384600000000 
+RWCV     hex_  00000000             
+SBF      hex_  00000000             
+SBFD     hex_  00000000             
+SBFE     flag  01                   
+SBFF     hex_  00000000             
+SBFL     hex_  00000000             
+SBFN     hex_  00000000             
+SBFU     hex_  000000e0             
+SBFV     hex_  0fffffff             
+SC0F     sp78  fc00                 -4.000
+SC0W     sp78  fe00                 -2.000
+SCIL     ui8   00                   0.000
+SG0F     sp78  5d00                 93.000
+SG0S     sp78  6800                 104.000
+SG0T     sp78  6600                 102.000
+SG0W     sp78  6200                 98.000
+SG1F     sp78  5400                 84.000
+SG1S     sp78  6100                 97.000
+SG1T     sp78  6000                 96.000
+SG1W     sp78  5d00                 93.000
+SH0F     sp78  5000                 80.000
+SH0W     sp78  5200                 82.000
+SL0F     sp78  3200                 50.000
+SL0P     sp78  3a00                 58.000
+SL0S     sp78  3c00                 60.000
+SL0W     sp78  3400                 52.000
+SM0F     sp78  5300                 83.000
+SM0W     sp78  5900                 89.000
+SPH0     ui16  0002                 2.000
+SPHR     ui32  00000000             0.000
+SPHS     ui8   01                   1.000
+SPHT     ui16  0000                 0.000
+TA0P     sp78  13a0                 19.625
+TA0V     sp78  2080                 32.500
+TA0p     sp78  27a0                 39.625
+TC0E     sp78  ecf9                 -19.027
+TC0F     sp78  eef3                 -17.051
+TC0J     sp78  01fa                 1.977
+TC0L     ui16  0020                 32.000
+TC0P     sp78  3cc0                 60.750
+TC0T     sp78  00b6                 0.711
+TC0c     sp78  4d00                 77.000
+TC0p     sp78  3cc0                 60.750
+TC1P     sp78  3850                 56.312
+TC1c     sp78  4a00                 74.000
+TC1p     sp78  3850                 56.312
+TC2P     sp78  3db0                 61.688
+TC2c     sp78  4900                 73.000
+TC2p     sp78  3db0                 61.688
+TC3c     sp78  4900                 73.000
+TC4c     sp78  4800                 72.000
+TC5c     sp78  4700                 71.000
+TC6c     sp78  4700                 71.000
+TC7c     sp78  4700                 71.000
+TC8c     sp78  8100                 -127.000
+TC9c     sp78  8100                 -127.000
+TCS0     sp78  4400                 68.000
+TCS1     sp78  4300                 67.000
+TCS2     sp78  4a00                 74.000
+TCS3     sp78  4700                 71.000
+TCXR     sp78  e9dc                 -22.141
+TCXc     sp78  4ddc                 77.859
+TCXr     sp78  e9dc                 -22.141
+TG0D     sp78  4400                 68.000
+TG0E     sp78  4419                 68.098
+TG0F     sp78  44bf                 68.746
+TG0J     sp78  00a6                 0.648
+TG0L     ui16  0020                 32.000
+TG0T     sp78  0002                 0.008
+TG0d     sp78  4400                 68.000
+TG0s     sp78  0000                 0.000
+TG1D     sp78  4500                 69.000
+TG1E     sp78  44c3                 68.762
+TG1F     sp78  4589                 69.535
+TG1J     sp78  00c6                 0.773
+TG1L     ui16  0020                 32.000
+TG1P     sp78  38b0                 56.688
+TG1T     sp78  000a                 0.039
+TG1d     sp78  4500                 69.000
+TG1p     sp78  38b0                 56.688
+TG1s     sp78  0000                 0.000
+TG2P     sp78  3cb0                 60.688
+TG2d     sp78  3a00                 58.000
+TG2p     sp78  3cb0                 60.688
+TG2s     sp78  0000                 0.000
+TG3P     sp78  38b0                 56.688
+TG3d     sp78  4430                 68.188
+TG3p     sp78  38b0                 56.688
+TH0A     sp78  346b                 52.418
+TH0B     sp78  34a4                 52.641
+TH0F     sp78  3547                 53.277
+TH0X     sp78  352f                 53.184
+TH0a     sp78  346b                 52.418
+TH0b     sp78  34a4                 52.641
+TH1A     sp78  3513                 53.074
+TH1B     sp78  352f                 53.184
+TH1a     sp78  3513                 53.074
+TH1b     sp78  352f                 53.184
+TI0P     sp78  3960                 57.375
+TI0d     sp78  30e0                 48.875
+TI0p     sp78  3960                 57.375
+TI1P     sp78  37e0                 55.875
+TI1d     sp78  2f80                 47.500
+TI1p     sp78  37e0                 55.875
+TI2d     sp78  4170                 65.438
+TL0P     sp78  28e0                 40.875
+TL0V     sp78  2598                 37.594
+TL0p     sp78  28e0                 40.875
+TL1P     sp78  2970                 41.438
+TL1V     sp78  25da                 37.852
+TL1p     sp78  2970                 41.438
+TL1v     sp78  25d9                 37.848
+TM0P     sp78  35c0                 53.750
+TM0V     sp78  3e97                 62.590
+TM0o     sp78  0000                 0.000
+TM0p     sp78  35c0                 53.750
+TM1P     sp78  3870                 56.438
+TM1p     sp78  3870                 56.438
+TM2P     sp78  3950                 57.312
+TM2p     sp78  3950                 57.312
+TM3P     sp78  3aa0                 58.625
+TM3p     sp78  3aa0                 58.625
+TM4a     sp78  3e97                 62.590
+TM4b     sp78  4297                 66.590
+TMXP     sp78  3aa0                 58.625
+TPCD     sp78  4200                 66.000
+TS0V     sp78  32a4                 50.641
+TS0o     sp78  0000                 0.000
+Tb0P     sp78  35e0                 53.875
+Tb0p     sp78  35e0                 53.875
+Tm0P     sp78  39a0                 57.625
+Tm0p     sp78  39a0                 57.625
+Tm1P     sp78  38e0                 56.875
+Tm1p     sp78  38e0                 56.875
+Tm2P     sp78  3810                 56.062
+Tm2p     sp78  3810                 56.062
+Tm3P     sp78  3b50                 59.312
+Tm3p     sp78  3b50                 59.312
+Tp2F     sp78  40ff                 64.996
+Tp2H     sp78  4100                 65.000
+Tp2h     sp78  4100                 65.000
+VC0C     flt   dd88e43f             1.785
+VD2R     flt   c5924041             12.036
+VG0C     flt   9c4c693f             0.911
+VG2R     flt   fba14141             12.102
+WCPW     ui8   00                   0.000
+WIr0     si8   02                   2.000
+WIw0     si8   02                   2.000
+WIz0     ui8   02                   2.000
+WKEN     hex_  00000000             
+WKOS     ui8   00                   0.000
+WKTP     ui8   00                   0.000
+WOr0     si8   02                   2.000
+WOw0     si8   ff                   -1.000
+WOw1     si8   ff                   -1.000
+WOw2     si8   ff                   -1.000
+WOw3     si8   ff                   -1.000
+ZPEN     hex_  3b                   
+gP01     ui32  00000000             0.000
+gP02     ui32  00000000             0.000
+gP03     ui32  00000000             0.000
+gP04     ui32  00000000             0.000
+gP05     ui32  00000000             0.000
+gP06     ui32  00000000             0.000
+gP07     ui32  00000000             0.000
+gP08     ui32  00000000             0.000
+gP09     ui32  00000000             0.000
+gP0a     ui32  00000000             0.000
+gP0b     ui32  00000000             0.000
+gP0c     ui32  00000000             0.000
+gP0d     ui32  00000000             0.000
+gP0e     ui32  00000000             0.000
+gP0f     ui32  00000000             0.000
+gP10     ui32  00000000             0.000
+gP11     ui32  00000000             0.000
+gP12     ui32  00000000             0.000
+gP13     ui32  00000000             0.000
+gP14     ui32  00000000             0.000
+gP15     ui32  00000000             0.000
+gP16     ui32  00000000             0.000
+gP17     ui32  00000000             0.000
+gP18     ui32  00000000             0.000
+gP19     ui32  00000000             0.000
+hC0I     flt   00000000             0.000
+hC0N     flt   00000000             0.000
+hC0S     flt   00000000             0.000
+hC0T     flt   00000000             0.000
+hE0I     flt   00000000             0.000
+hE0N     flt   00000000             0.000
+hE0S     flt   00000000             0.000
+hE0T     flt   00000000             0.000
+hE1I     flt   00000000             0.000
+hE1N     flt   00000000             0.000
+hE1S     flt   00000000             0.000
+hE1T     flt   00000000             0.000
+hI0I     flt   00000000             0.000
+hI0N     flt   00000000             0.000
+hI0S     flt   00000000             0.000
+hI0T     flt   00000000             0.000
+hQTZ     flt   00000000             0.000
+hSci     ui8   00                   0.000
+hSdn     flt   00000000             0.000
+hSei     ui16  0000                 0.000
+hSia     ui16  0000                 0.000
+hSii     ui8   00                   0.000
+hSij     ui8   00                   0.000
+hSta     hex_  010102               
+hSup     flt   00000000             0.000
+pmFC     hex_  0000                 
+
+=== Temperatursensoren (heuristisch gruppiert) ===
+
+-- CPU --
+TCXc   sp78    80.22 °C
+TC3c   sp78    76.00 °C
+TC0c   sp78    72.00 °C
+TC1c   sp78    72.00 °C
+TC4c   sp78    72.00 °C
+TCS2   sp78    72.00 °C
+TC2c   sp78    71.00 °C
+TC5c   sp78    71.00 °C
+TC6c   sp78    70.00 °C
+TC7c   sp78    70.00 °C
+TCS3   sp78    70.00 °C
+TCS0   sp78    67.00 °C
+TCS1   sp78    66.00 °C
+Tp2F   sp78    64.99 °C
+Tp2H   sp78    64.88 °C
+Tp2h   sp78    64.88 °C
+TC2p   sp78    61.69 °C
+TC2P   sp78    61.50 °C
+TC0P   sp78    60.81 °C
+TC0p   sp78    60.75 °C
+TC1P   sp78    56.38 °C
+TC1p   sp78    56.31 °C
+TC0J   sp78     2.20 °C
+TC0T   sp78     0.96 °C
+TCXR   sp78   -13.78 °C
+TC0F   sp78   -16.73 °C
+TC0E   sp78   -18.93 °C
+TCXr   sp78   -19.78 °C
+
+-- GPU --
+TG1F   sp78    69.53 °C
+TG1D   sp78    69.00 °C
+TG1d   sp78    69.00 °C
+TG1E   sp78    68.75 °C
+TG0F   sp78    68.75 °C
+TG3d   sp78    68.19 °C
+TG0E   sp78    68.10 °C
+TG0D   sp78    68.00 °C
+TG0d   sp78    68.00 °C
+TG2P   sp78    60.75 °C
+TG2p   sp78    60.75 °C
+TG2d   sp78    58.00 °C
+TG1P   sp78    56.75 °C
+TG1p   sp78    56.75 °C
+TG3P   sp78    56.62 °C
+TG3p   sp78    56.62 °C
+TG1J   sp78     0.77 °C
+TG0J   sp78     0.65 °C
+TG1T   sp78     0.03 °C
+TG0T   sp78     0.00 °C
+TG0s   sp78     0.00 °C
+TG1s   sp78     0.00 °C
+TG2s   sp78     0.00 °C
+
+-- Ambient/Gehäuse --
+TA0p   sp78    39.56 °C
+TA0V   sp78    32.49 °C
+TA0P   sp78    19.56 °C
+
+-- Sonstige --
+TM4b   sp78    66.58 °C
+TPCD   sp78    66.00 °C
+TI2d   sp78    65.44 °C
+TM0V   sp78    62.58 °C
+TM4a   sp78    62.58 °C
+Tm3P   sp78    59.31 °C
+Tm3p   sp78    59.31 °C
+TM3P   sp78    58.62 °C
+TM3p   sp78    58.62 °C
+TMXP   sp78    58.62 °C
+Tm0P   sp78    57.62 °C
+Tm0p   sp78    57.62 °C
+TI0P   sp78    57.38 °C
+TI0p   sp78    57.38 °C
+TM2P   sp78    57.31 °C
+TM2p   sp78    57.31 °C
+Tm1P   sp78    56.81 °C
+Tm1p   sp78    56.81 °C
+TM1P   sp78    56.44 °C
+TM1p   sp78    56.44 °C
+Tm2P   sp78    56.00 °C
+Tm2p   sp78    56.00 °C
+TI1P   sp78    55.88 °C
+TI1p   sp78    55.88 °C
+TM0P   sp78    53.81 °C
+Tb0P   sp78    53.81 °C
+Tb0p   sp78    53.81 °C
+TM0p   sp78    53.75 °C
+TH0F   sp78    53.29 °C
+TH0X   sp78    53.22 °C
+TH1B   sp78    53.22 °C
+TH1b   sp78    53.18 °C
+TH1A   sp78    53.09 °C
+TH1a   sp78    53.07 °C
+TH0B   sp78    52.68 °C
+TH0b   sp78    52.64 °C
+TH0A   sp78    52.43 °C
+TH0a   sp78    52.42 °C
+TS0V   sp78    50.64 °C
+TI0d   sp78    48.88 °C
+TI1d   sp78    47.50 °C
+TL1p   sp78    41.44 °C
+TL1P   sp78    41.38 °C
+TL0P   sp78    41.12 °C
+TL0p   sp78    40.88 °C
+TL1V   sp78    37.85 °C
+TL1v   sp78    37.85 °C
+TL0V   sp78    37.59 °C
+VG2R   flt     12.10 °C
+VD2R   flt     12.04 °C
+VC0C   flt      1.79 °C
+VG0C   flt      0.91 °C
+TM0o   sp78     0.00 °C
+TS0o   sp78     0.00 °C
+
+=== Lüfter (F0..F3) ===
+F0: 2038 rpm  min=1100  max=2846  target=2041  mode=0  id=
+F1: 2044 rpm  min=1100  max=2846  target=2041  mode=0  id=

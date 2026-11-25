@@ -1,0 +1,12 @@
+# Build-Artefakte
+.build/
+.cache/
+dist/
+*.log
+
+# Messdaten (CSV) und App-Bundles
+*.csv
+fanstats-messung-*.csv
+
+# macOS
+.DS_Store
